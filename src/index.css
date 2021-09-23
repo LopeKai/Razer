@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --color-primary: #44d62c;
+  --color-dark: #222;
+  --color-light: #252525; 
+  font-size: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #000;
+}
+
+p {
+  color: #999999
+}
+
+/*------------ Container Buttons -----------*/
+.containerButtons {
+  margin-top: 8px;
+}
+
+.containerButtons  a {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.containerButtons  a:hover {
+  text-decoration: underline;
+}
+
+.containerButtons  a span {
+  color: var(--color-primary);
+}
+
+.containerButtons-products {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.containerButtons-products a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.9;
+  margin-left: 30px;
+}
+
+.containerButtons-products a:hover {
+  text-decoration: underline;
+}
+
+.containerButtons-products a span {
+  color: var(--color-primary);
+}
+
+/*------------ Container Title -----------*/
+.razer-containerTitle {
+  text-align: center;
+  color: #fff;
+}
+
+.razer-containerTitle h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.05px;
+  margin: 48px 0 0px;
+}
+
+.razer-containerTitle h2 {
+  font-weight: 400;
+}
+
+.razer-containerTitle-products {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.razer-containerTitle-products h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.razer-containerTitle-products h2 {
+  font-weight: 400;
+  font-size: 1.1rem;
 }
