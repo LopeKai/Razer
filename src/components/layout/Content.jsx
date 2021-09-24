@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Home from '../../pages/Home'
 import Pc from '../../pages/Pc'
+import Console from '../../pages/Console'
 import Mobile from '../../pages/Mobile'
 
 const Content = () => {
@@ -15,6 +16,10 @@ const Content = () => {
 
                 <Route path="/pc">
                     <Pc/>
+                </Route>
+
+                <Route path="/console"> 
+                    <Console />
                 </Route>
 
                 <Route path="/mobile">

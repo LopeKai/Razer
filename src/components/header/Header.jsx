@@ -36,14 +36,20 @@ export default function Header() {
                         <Link to="/support"> Support </Link>
                     </li>
                     <li>
-                        <a className="containerIcon" href="#">
+                        {/* <a className="containerIcon" href="#">
                             <ion-icon className="icon" name="search-outline"></ion-icon>
-                        </a>
+                        </a> */}
+                        <Link to="" className="containerIcon">
+                            <ion-icon className="icon" name="search-outline"></ion-icon>
+                        </Link>
                     </li>
                     <li>
-                        <a className="containerIcon" href="#">
+                        {/* <a className="containerIcon" href="#">
                             <ion-icon className="icon" name="cart-outline"></ion-icon>
-                        </a>
+                        </a> */}
+                        <Link to="" className="containerIcon">
+                            <ion-icon className="icon" name="cart-outline"></ion-icon>
+                        </Link>
                     </li>
                 </ul>
             </nav>

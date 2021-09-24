@@ -1,6 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import imgLaptop from '../image/pc/laptop.jpg'
+import imgDesktop from '../image/pc/desktop.jpg'
+import imgMonitors from '../image/pc/monitores.png'
+
+import imgWebcam from '../image/pc/streaming/web.jpg'
+import imgMicro from '../image/pc/streaming/micro.jpg'
+import imgCapture from '../image/pc/streaming/capture.jpg'
+
+import imgRazerSnap from '../image/pc/software/razerSnap.jpg'
+import imgRazerChroma from '../image/pc/software/razerChroma.jpg'
+import imgRazerCortex from '../image/pc/software/razerCortex.jpg'
+import imgThx from '../image/pc/software/thx.jpg'
+import imgSound from '../image/pc/software/sound.jpg'
+import imgStreamer from '../image/pc/software/streamer.jpg'
 
 import '../style/pc.scss'
+import '../style/gridProducts/grid.scss'
 
 const Pc = () => {
     return (
@@ -14,42 +31,46 @@ const Pc = () => {
                 </p>
             </div>
 
-            <div className="pc__razer">
-                <div className="pc__razer-products">
-                    <div className="img img-laptop">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+            <div className="razer-grid">
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgLaptop} alt="Laptop" />
+                        </Link>
                     </div>
 
-                    <div className="description">
+                    <div className="container-description">
                         <h2>Laptops</h2>
                         <p>Sleek high-performance gaming laptops</p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-desktop">
-                        <a href="#"></a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgDesktop} alt="Desktop" />
+                        </Link>
                     </div>
 
-                    <div className="description">
+                    <div className="container-description">
                         <h2>Desktops &amp; Cases</h2>
                         <p>Meticulously crafted for high-performance play</p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-monitors">
-                        <a href="#"></a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgMonitors} alt="Monitors" />
+                        </Link>
                     </div>
 
-                    <div className="description">
+                    <div className="container-description">
                         <h2> Monitors </h2>
                         <p>Experience only the best on a superior display</p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
             </div>
@@ -66,22 +87,22 @@ const Pc = () => {
             <div className="peripherals">
                 <div className="peripherals__products productOne">
                     <h2>Mice</h2>
-                    <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="peripherals__products productTwo">
                     <h2>Mouse Mats</h2>
-                    <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="peripherals__products productThree">
                     <h2>Keyboards</h2>
-                    <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="peripherals__products productFour">
                     <h2>Audio</h2>
-                    <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
             </div>
 
@@ -94,46 +115,46 @@ const Pc = () => {
                 </p>
             </div>
 
-            <div className="pc__razer">
-                <div className="pc__razer-products">
-                    <div className="img img-web">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+            <div className="razer-grid">
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgWebcam} alt="Webcam" />
+                        </Link>
                     </div>
 
-                    <div className="description">
+                    <div className="container-description">
                         <h2>Webcams</h2>
                         <p>Stunning visual fidelity for streaming and productivity</p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-micro">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgMicro}  alt="Microphones" />
+                        </Link>
                     </div>
 
-                    <div className="description">
+                    <div className="container-description">
                         <h2>Michophones</h2>
                         <p>Engineered for crystal-clear voice pickup</p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-capture">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgCapture} alt="Capture" />
+                        </Link>
                     </div>
 
-                    <div className="description"> 
+                    <div className="container-description">
                         <h2>Capture Card &amp; Others </h2>
                         <p>For a professional streaming advantage</p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
             </div>
@@ -141,111 +162,108 @@ const Pc = () => {
             <div className="pc_description">
                 <h1>SOFTWARE</h1>
                 <p>
-                    Providing an optimal gaming experience to over 100 million users, 
-                    Razer's software platforms are designed to enhance the performance of our gear and your PC—from 
+                    Providing an optimal gaming experience to over 100 million users,
+                    Razer's software platforms are designed to enhance the performance of our gear and your PC—from
                     custom keybinds to personalized Chroma effects, game optimizations to immersive audio, and more.
                 </p>
             </div>
 
-            <div className="pc__razer software">
-                <div className="pc__razer-products">
-                    <div className="img img-synapse">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+            <div className="razer-grid">
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgRazerSnap} alt="" />
+                        </Link>
                     </div>
-                    <div className="description">
+
+                    <div className="container-description">
                         <h2>Razer Synapse</h2>
                         <p>
-                            Maximize your unfair advantage with Razer Synapse 3, 
+                            Maximize your unfair advantage with Razer Synapse 3,
                             the unified cloud-based hardware configuration tool that takes your Razer devices to the next lev
                         </p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-chroma">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgRazerChroma} alt="" />
+                        </Link>
                     </div>
-                    <div className="description">
+
+                    <div className="container-description">
                         <h2>Razer Chroma™ Rgb</h2>
                         <p>
-                            Experience full RGB customization and deeper immersion with the world’s largest lighting ecosystem that 
+                            Experience full RGB customization and deeper immersion with the world’s largest lighting ecosystem that
                             supports hundreds of games and thousands of devices.
                         </p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-cortex">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgRazerCortex} alt="" />
+                        </Link>
                     </div>
-                    <div className="description">
+                    <div className="container-description">
                         <h2>Razer Cortex</h2>
                         <p>
                             Unlock your PC’s full potential and enhance your gameplay with Razer: Cortex.
                         </p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-thx">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgThx} alt="" />
+                        </Link>
                     </div>
-                    <div className="description">
+                    <div className="container-description">
                         <h2>Thx Spatial Audio</h2>
                         <p>
-                            Unlock full customization with a surround sound application featuring more 
+                            Unlock full customization with a surround sound application featuring more
                             extensive audio calibration and custom-tuned game profiles.
                         </p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-sound">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgSound} alt="" />
+                        </Link>
                     </div>
-                    <div className="description">
+                    <div className="container-description">
                         <h2> 7.1 Surround Sound </h2>
                         <p>
                             Experience accurate positional sound for the competitive advantage.
                         </p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
 
-                <div className="pc__razer-products">
-                    <div className="img img-streamer">
-                        <a className="link" href="#">
-                            <img src="../image/pc/laptop.jpg" alt="" />
-                        </a>
+                <div className="razer-products">
+                    <div className="container-img">
+                        <Link className="link">
+                            <img src={imgStreamer} alt="" />
+                        </Link>
                     </div>
-                    <div className="description">
-                        <h2> Streamer Companion App </h2> 
+                    <div className="container-description">
+                        <h2> Streamer Companion App </h2>
                         <p>
-                            Put on a show for your stream by customizing how your Seiren Emote or Emote 
+                            Put on a show for your stream by customizing how your Seiren Emote or Emote
                             display reacts to your audience.
                         </p>
-                        <a className="btn-learnMore" href="#">Learn More &gt;</a>
+                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
                 </div>
-
-
-              
-
-               
             </div>
 
         </div>

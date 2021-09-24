@@ -7,7 +7,7 @@ export default function Home() {
                 <p>For a limited time, all orders over US$49 will enjoy free shipping to the
                     United States.
                 </p>
-                <a href="#"><p>Learn More {'>'}</p></a>
+                <button><p>Learn More {'>'}</p></button>
             </div>
 
             {/*---------- RAZER BLADE -----------*/}
@@ -17,8 +17,8 @@ export default function Home() {
                     <h2>Revisit Our Highlights</h2>
                 </div>
                 <div className="containerButtons">
-                    <a href="#">Learn More <span>{'>'}</span></a>
-                    <a href="#">Buy <span>{'>'}</span></a>
+                    <button href="#">Learn More <span>{'>'}</span></button>
+                    <button href="#">Buy <span>{'>'}</span></button>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ export default function Home() {
                     <h2>NOW WITH 11TH GEN INTEL® PROCESSOR</h2>
                 </div>
                 <div className="containerButtons">
-                    <a href="#">Shop Now <span>{'>'}</span></a>
+                    <button href="#">Shop Now <span>{'>'}</span></button>
                 </div>
             </div>
 
@@ -40,8 +40,8 @@ export default function Home() {
                     <h2>Customize.Control.Conquer</h2>
                 </div>
                 <div className="containerButtons">
-                    <a href="#">Learn More <span>{'>'}</span></a>
-                    <a href="#">Buy <span>{'>'}</span></a>
+                    <button href="#">Learn More <span>{'>'}</span></button>
+                    <button href="#">Buy <span>{'>'}</span></button>
                 </div>
             </div>
 
@@ -53,8 +53,8 @@ export default function Home() {
                         <h2>Full Spectrum Customizability</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <a href="#">Learn More <span>{'>'}</span></a>
-                        <a href="#">Buy <span>{'>'}</span></a>
+                        <button href="#">Learn More <span>{'>'}</span></button>
+                        <button href="#">Buy <span>{'>'}</span></button>
                     </div>
                 </div>
 
@@ -64,8 +64,8 @@ export default function Home() {
                         <h2>RAZER BOOK STARTING AT $999.99</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <a href="#">Learn More <span>{'>'}</span></a>
-                        <a href="#">Buy <span>{'>'}</span></a>
+                        <button href="#">Learn More <span>{'>'}</span></button>
+                        <button href="#">Buy <span>{'>'}</span></button>
                     </div>
                 </div>
 
@@ -75,8 +75,8 @@ export default function Home() {
                         <h2>Lose The Heat,Win The Game</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <a href="#">Learn More <span>{'>'}</span></a>
-                        <a href="#">Buy <span>{'>'}</span></a>
+                        <button href="#">Learn More <span>{'>'}</span></button>
+                        <button href="#">Buy <span>{'>'}</span></button>
                     </div>
                 </div>
 
@@ -86,8 +86,8 @@ export default function Home() {
                         <h2>GO BIG ON SUSTAINABILITY</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <a href="#">Learn More <span>{'>'}</span></a>
-                        <a href="#">Buy <span>{'>'}</span></a>
+                        <button href="#">Learn More <span>{'>'}</span></button>
+                        <button href="#">Buy <span>{'>'}</span></button>
                     </div>
                 </div>
 
@@ -97,8 +97,8 @@ export default function Home() {
                         <h2>AVAILABLE IN FABRIC XL</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <a href="#">Learn More <span>{'>'}</span></a>
-                        <a href="#">Buy <span>{'>'}</span></a>
+                        <button href="#">Learn More <span>{'>'}</span></button>
+                        <button href="#">Buy <span>{'>'}</span></button>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
                         <h2>FREEDOM THROUGH FORM</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <a href="#">Enjoy Special Privileges <span>{'>'}</span></a>
+                        <button href="#">Enjoy Special Privileges <span>{'>'}</span></button>
                     </div>
                 </div>
             </div>

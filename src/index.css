@@ -24,12 +24,21 @@ p {
   color: #999999
 }
 
+
 /*------------ Container Buttons -----------*/
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
 .containerButtons {
   margin-top: 8px;
 }
 
-.containerButtons  a {
+.containerButtons  button {
   display: inline-block;
   font-size: 1.2rem;
   margin-left: 30px;
@@ -38,11 +47,11 @@ p {
   opacity: 0.9;
 }
 
-.containerButtons  a:hover {
+.containerButtons  button:hover {
   text-decoration: underline;
 }
 
-.containerButtons  a span {
+.containerButtons  button span {
   color: var(--color-primary);
 }
 
@@ -52,18 +61,18 @@ p {
   color: #fff;
 }
 
-.containerButtons-products a {
+.containerButtons-products button {
   text-decoration: none;
   color: #fff;
   opacity: 0.9;
   margin-left: 30px;
 }
 
-.containerButtons-products a:hover {
+.containerButtons-products button:hover {
   text-decoration: underline;
 }
 
-.containerButtons-products a span {
+.containerButtons-products button span {
   color: var(--color-primary);
 }
 

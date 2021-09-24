@@ -1,5 +1,4 @@
 .pc {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +10,6 @@
         font-size: 13px;
         color: var(--color-primary);
     }
-
-
 
     &_description {
         width: 100%;
@@ -33,72 +30,58 @@
         }
     }
 
-    &__razer{
-        max-width: 1180px;
-        margin-top: 20px;
-        margin-bottom: 25px;
-        display: grid;
-        grid-template-columns: repeat(3,350px);
-        column-gap: 15px;
+    // &__razer{
+    //     max-width: 1180px;
+    //     margin-top: 20px;
+    //     margin-bottom: 25px;
+    //     display: grid;
+    //     grid-template-columns: repeat(3,350px);
+    //     column-gap: 15px;
 
-        &-products {
-            background-color: #000;
-            border-bottom: 1px solid var(--color-primary);
-        
-            .img {
-                display: block;
-                position: relative;
-                width: 100%;
-                height: 380px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
+    //     .pc__razer-products {
+    //         background-color: #000;
+    //         border-bottom: 1px solid var(--color-primary);
 
-                &-laptop {
-                    background-image: url(../image/pc/laptop.jpg);
-                }
+    //         .container-img {
+    //             display: block;
+    //             position: relative;
+    //             width: 100%;
+    //             height: 350px;
 
-                &-desktop {
-                    background-image: url(../image/pc/desktop.jpg);
-                }
+    //             .link {
+    //                 display: inline-block;
+    //                 width: 100%;
+    //                 height: 360px;
 
-                &-monitors {
-                    background-image: url(../image/pc/monitores.png);
-                }
+    //                 img {
+    //                     display: block;
+    //                     width: 100%;
+    //                 }
+    //             }
+    //         }
 
-                .link {
-                    display: inline-block;
-                    width: 100%;
-                    height: 360px;
+    //         .container-description{
+    //             padding: 0 10px 20px;
 
-                    img {
-                        display: block;
-                        z-index: 100;
-                    }
-                }
-            }
+    //             h2 {
+    //                 font-size: 17px;
+    //                 text-transform: uppercase;
+    //                 font-weight: 300;
+    //                 color: #ffff;
+    //             }
 
-            .description {
-                padding: 0 10px 20px;
+    //             p {
+    //                 font-size: 13px;
+    //                 color: #888888;
+    //                 padding-top: 10px;
+    //             }
 
-                h2 {
-                    font-size: 17px;
-                    text-transform: uppercase;
-                    font-weight: 300;
-                    color: #ffff;
-                }
-
-                p {
-                    font-size: 14px;
-                    color: #888888;
-                }
-
-                .btn-learnMore {
-                    margin-top: 15px;
-                }
-            }
-        }
-    }
+    //             .btn-learnMore {
+    //                 margin-top: 18px;
+    //             }
+    //         }
+    //     }
+    // }
 
     .peripherals {
         max-width: 1180px;
@@ -143,53 +126,4 @@
         }
     }
 
-    /*----------- STREAMING ----------*/
-    .img-web {
-        background-image: url('../image/pc/streaming/web.jpg');
-    }
-
-    .img-micro {
-        background-image: url('../image/pc/streaming/micro.jpg');
-    }
-
-    .img-capture {
-        background-image: url('../image/pc/streaming/capture.jpg');
-    }
-
-    /*----------- SOFTWARE ----------*/
-    .software {
-        display: grid;
-        grid-template-columns: repeat(3,350px);
-        row-gap: 15px;
-
-        p {
-            font-size: 12px;
-        }
-
-        .img-synapse {
-            background-image: url('../image/pc/software/razerSnap.jpg');
-        }
-
-        .img-chroma {
-            background-image: url('../image/pc/software/razerChroma.jpg');
-        }
-
-        .img-cortex {
-            background-image: url('../image/pc/software/razerCortex.jpg');
-        }
-
-        .img-thx {
-            background-image: url('../image/pc/software/thx.jpg');
-        }
-
-        .img-sound {
-            background-image: url('../image/pc/software/sound.jpg');
-        }
-
-        .img-streamer {
-            background-image: url('../image/pc/software/streamer.jpg');
-        }
-
-
-    }
 }
