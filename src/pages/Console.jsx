@@ -183,14 +183,28 @@ const Console = () => {
             </div>
 
             <div className="console__gamingAudio">
-                <div className="gamingAudio"></div>
-                
-                <div className="description">
-                    <h1 className="colorWhite">THE SCIENCE OF GREAT GAMING AUDIO</h1>
-                    <p>
-                        Take a look at what makes the Razer Thresher tick, as we cover the five important 
-                        factors that go into making an amazing gaming headset.
-                    </p>
+                <div className="description__product">
+                    <div className="container">
+                        <h1 className="colorWhite">THE SCIENCE OF GREAT GAMING AUDIO</h1>
+                        <p>
+                            Take a look at what makes the Razer Thresher tick, as we cover the five important
+                            factors that go into making an amazing gaming headset.
+                        </p>
+                        <button href="#">Learn More &gt;</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="console__gamepads">
+                <div className="description__product">
+                    <div className="container">
+                        <h1 className="colorWhite">GAMEPADS ENGINEERED FOR TOTAL CONTROL</h1>
+                        <p>
+                            See how the Razer Raiju goes from the drawing board and into your hands, 
+                            thanks to a combination of science, design and engineering.
+                        </p>
+                        <button href="#">Learn More &gt;</button>
+                    </div>
                 </div>
             </div>
 
