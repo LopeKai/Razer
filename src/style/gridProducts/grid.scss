@@ -5,10 +5,19 @@
     display: grid;
     grid-template-columns: repeat(3,350px);
     column-gap: 15px;
+    row-gap: 15px;
 
     .razer-products {
+        position: relative;
         background-color: #000;
         border-bottom: 1px solid var(--color-primary);
+
+        .btn-learnMore {
+            position: absolute;
+            left: 10px;
+            bottom: 13px;
+            color: var(--color-primary);
+        }
 
         .container-img {
             display: block;
@@ -29,6 +38,7 @@
         }
 
         .container-description{
+            position: relative;
             padding: 0 10px 20px;
 
             h2 {
@@ -42,11 +52,7 @@
                 font-size: 13px;
                 color: #888888;
                 padding-top: 10px;
-            }
-
-            .btn-learnMore {
-                color: var(--color-primary);
-                margin-top: 18px;
+                padding-bottom: 20px;
             }
         }
     }

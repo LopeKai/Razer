@@ -1,0 +1,119 @@
+.mobile {
+    padding-top: 50px;
+    margin: 0 auto;
+
+    .newIcon-container {
+        grid-template-columns: repeat(10, 55px);
+
+        div:nth-child(1) {
+
+            img {
+                width: 60px;
+            }
+        }
+
+        div {
+            button {
+                width: 100px
+            }
+        }
+    }
+
+    /*---------- Bring ----------*/
+    &__consoleBring {
+        height: 100vh;
+        background-image: url(../../../image/mobile/image1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-bottom: 1px solid var(--color-primary);
+
+        .description {
+            background-color: transparent;
+
+            h1 {
+                font-size: 26px;
+                color: #ffff;
+            }
+
+            button {
+                margin-top: 20px
+            }
+        }
+    }
+
+    /*---------- consoleProducts ----------*/
+    &__consoleProducts {
+        display: grid;
+        justify-content: center;
+        background-color: var(--color-light);
+    }
+
+    /*---------- sync ----------*/
+    &__sync {
+        height: 100vh;
+        background-image: url(../../../image/mobile/image2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-bottom: 1px solid var(--color-primary);
+
+        .description {
+            background-color: transparent;
+
+            h1 {
+                font-size: 26px;
+                color: #ffff;
+            }
+
+            button {
+                margin-top: 20px
+            }
+        }
+    }
+
+    /*---------- peripherals----------*/
+    &__peripherals {
+        display: grid;
+        justify-content: center;
+        background-color: var(--color-light);
+
+        .razer-products {
+            .container-description {
+                h2 {
+                    font-size: 16px
+                }
+            }
+        }
+    }
+
+    /*---------- peripherals----------*/
+    &__extra {
+        height: 100vh;
+        background-image: url(../../../image/mobile/image3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-bottom: 1px solid var(--color-primary);
+
+        .description {
+            background-color: transparent;
+
+            h1 {
+                font-size: 26px;
+                color: #ffff;
+            }
+
+            button {
+                margin-top: 20px
+            }
+        }
+    } 
+
+     /*---------- mobile__accessories ----------*/
+     &__accessories {
+        display: grid;
+        justify-content: center;
+        background-color: var(--color-light);
+     }
+}

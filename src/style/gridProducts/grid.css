@@ -1,0 +1,57 @@
+.razer-grid {
+  max-width: 1180px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (350px)[3];
+      grid-template-columns: repeat(3, 350px);
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.razer-grid .razer-products {
+  background-color: #000;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.razer-grid .razer-products .container-img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.razer-grid .razer-products .container-img .link {
+  display: inline-block;
+  width: 100%;
+  height: 360px;
+}
+
+.razer-grid .razer-products .container-img .link img {
+  display: block;
+  width: 100%;
+}
+
+.razer-grid .razer-products .container-description {
+  padding: 0 10px 20px;
+}
+
+.razer-grid .razer-products .container-description h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ffff;
+}
+
+.razer-grid .razer-products .container-description p {
+  font-size: 13px;
+  color: #888888;
+  padding-top: 10px;
+}
+
+.razer-grid .razer-products .container-description .btn-learnMore {
+  color: var(--color-primary);
+  margin-top: 18px;
+}
+/*# sourceMappingURL=grid.css.map */

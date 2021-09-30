@@ -1,0 +1,92 @@
+.pc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--color-light);
+}
+
+.pc .btn-learnMore {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  color: var(--color-primary);
+}
+
+.pc_description {
+  width: 100%;
+  text-align: center;
+  background: #000;
+  padding: 50px 0;
+}
+
+.pc_description h1 {
+  color: var(--color-primary);
+  font-weight: 200;
+}
+
+.pc_description p {
+  width: 800px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.pc .peripherals {
+  max-width: 1180px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (550px)[2];
+      grid-template-columns: repeat(2, 550px);
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.pc .peripherals__products {
+  height: 530px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid var(--color-primary);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pc .peripherals__products h2 {
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.pc .peripherals .productOne {
+  background-image: url(../image/pc/perifericos/mouse.jpg);
+}
+
+.pc .peripherals .productTwo {
+  background-image: url(../image/pc/perifericos/mousePad.jpg);
+}
+
+.pc .peripherals .productThree {
+  background-image: url(../image/pc/perifericos/teclado.jpg);
+}
+
+.pc .peripherals .productFour {
+  background-image: url(../image/pc/perifericos/headset.jpg);
+}
+/*# sourceMappingURL=pc.css.map */

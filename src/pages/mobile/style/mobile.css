@@ -1,0 +1,17 @@
+.mobile {
+  padding-top: 50px;
+}
+
+.mobile .newIcon-container {
+  -ms-grid-columns: (55px)[10];
+      grid-template-columns: repeat(10, 55px);
+}
+
+.mobile .newIcon-container div:nth-child(1) img {
+  width: 60px;
+}
+
+.mobile .newIcon-container div button {
+  width: 100px;
+}
+/*# sourceMappingURL=mobile.css.map */

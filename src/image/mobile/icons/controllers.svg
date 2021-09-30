@@ -1,0 +1,12 @@
+<svg id="icon-controllers" xmlns="http://www.w3.org/2000/svg" width="66" height="28.001" viewBox="0 0 66 28.001">
+  <g id="controllers_icon_default" data-name="controllers icon default" transform="translate(1846 -1982) rotate(-90)">
+    <g id="Rectangle_211" data-name="Rectangle 211" transform="translate(-2008 -1831.999)" fill="none" stroke="#eee" stroke-width="1">
+      <rect width="24" height="38.003" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="37.003" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_39" data-name="Line 39" x2="23" transform="translate(-2007 -1798.996)" fill="none" stroke="#eee" stroke-width="1"/>
+    <line id="Line_40" data-name="Line 40" x2="23" transform="translate(-2007 -1826.998)" fill="none" stroke="#eee" stroke-width="1"/>
+    <path id="Subtraction_75" data-name="Subtraction 75" d="M28,14h0a2,2,0,0,0-2-1.993H2a2,2,0,0,0-2,1.91L0,2A2.189,2.189,0,0,1,2.334,0L25.667,2A2.189,2.189,0,0,1,28,4V14ZM16.188,6.015a1.1,1.1,0,0,0,0,2.2h1.665v1.67a1.1,1.1,0,1,0,2.192,0V8.212h1.666a1.112,1.112,0,0,0,1.1-1.1,1.085,1.085,0,0,0-1.1-1.1H20.046V4.344a1.1,1.1,0,1,0-2.192,0v1.67ZM10,4a3,3,0,1,0,3,3A3,3,0,0,0,10,4Z" transform="translate(-2010.001 -1846)" fill="#eee"/>
+    <path id="Subtraction_77" data-name="Subtraction 77" d="M12,28H.09A2,2,0,0,0,2,26V2A2,2,0,0,0,0,0H10a2.189,2.189,0,0,1,2,2.334l2,23.333A2.189,2.189,0,0,1,12,28ZM7.007,15a3,3,0,1,0,3,3A3,3,0,0,0,7.007,15ZM6.613,10.78a1.351,1.351,0,1,0,.945.395A1.331,1.331,0,0,0,6.613,10.78ZM9.338,8.062a1.349,1.349,0,1,0,.945.395A1.331,1.331,0,0,0,9.338,8.062Zm-5.45,0a1.349,1.349,0,1,0,.945.395A1.333,1.333,0,0,0,3.888,8.062ZM6.613,5.344a1.351,1.351,0,1,0,.945.395A1.331,1.331,0,0,0,6.613,5.344Z" transform="translate(-1982 -1794.001) rotate(90)" fill="#eee"/>
+  </g>
+</svg>

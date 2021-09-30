@@ -5,8 +5,6 @@ import Header from './components/header/Header'
 import Content from './components/layout/Content'
 import Footer from './components/footer/Footer'
 
-import './app.css'
-
 function App() {
   return (
     <Router>

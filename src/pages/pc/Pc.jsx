@@ -1,23 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import imgLaptop from '../image/pc/laptop.jpg'
-import imgDesktop from '../image/pc/desktop.jpg'
-import imgMonitors from '../image/pc/monitores.png'
+import imgLaptop from '../../image/pc/laptop.jpg'
+import imgDesktop from '../../image/pc/desktop.jpg'
+import imgMonitors from '../../image/pc/monitores.png'
 
-import imgWebcam from '../image/pc/streaming/web.jpg'
-import imgMicro from '../image/pc/streaming/micro.jpg'
-import imgCapture from '../image/pc/streaming/capture.jpg'
+import imgWebcam from '../../image/pc/streaming/web.jpg'
+import imgMicro from '../../image/pc/streaming/micro.jpg'
+import imgCapture from '../../image/pc/streaming/capture.jpg'
 
-import imgRazerSnap from '../image/pc/software/razerSnap.jpg'
-import imgRazerChroma from '../image/pc/software/razerChroma.jpg'
-import imgRazerCortex from '../image/pc/software/razerCortex.jpg'
-import imgThx from '../image/pc/software/thx.jpg'
-import imgSound from '../image/pc/software/sound.jpg'
-import imgStreamer from '../image/pc/software/streamer.jpg'
+import imgRazerSnap from '../../image/pc/software/razerSnap.jpg'
+import imgRazerChroma from '../../image/pc/software/razerChroma.jpg'
+import imgRazerCortex from '../../image/pc/software/razerCortex.jpg'
+import imgThx from '../../image/pc/software/thx.jpg'
+import imgSound from '../../image/pc/software/sound.jpg'
+import imgStreamer from '../../image/pc/software/streamer.jpg'
 
-import '../style/pc.scss'
-import '../style/gridProducts/grid.scss'
+import './style/pc.scss'
+import '../../style/gridProducts/grid.scss'
 
 const Pc = () => {
     return (
@@ -182,8 +182,8 @@ const Pc = () => {
                             Maximize your unfair advantage with Razer Synapse 3,
                             the unified cloud-based hardware configuration tool that takes your Razer devices to the next lev
                         </p>
-                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="razer-products">
@@ -199,8 +199,8 @@ const Pc = () => {
                             Experience full RGB customization and deeper immersion with the world’s largest lighting ecosystem that
                             supports hundreds of games and thousands of devices.
                         </p>
-                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="razer-products">
@@ -214,8 +214,8 @@ const Pc = () => {
                         <p>
                             Unlock your PC’s full potential and enhance your gameplay with Razer: Cortex.
                         </p>
-                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="razer-products">
@@ -230,8 +230,8 @@ const Pc = () => {
                             Unlock full customization with a surround sound application featuring more
                             extensive audio calibration and custom-tuned game profiles.
                         </p>
-                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="razer-products">
@@ -245,8 +245,8 @@ const Pc = () => {
                         <p>
                             Experience accurate positional sound for the competitive advantage.
                         </p>
-                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
 
                 <div className="razer-products">
@@ -261,8 +261,8 @@ const Pc = () => {
                             Put on a show for your stream by customizing how your Seiren Emote or Emote
                             display reacts to your audience.
                         </p>
-                        <button className="btn-learnMore" href="#">Learn More &gt;</button>
                     </div>
+                    <button className="btn-learnMore" href="#">Learn More &gt;</button>
                 </div>
             </div>
 

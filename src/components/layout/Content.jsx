@@ -1,10 +1,11 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import Home from '../../pages/Home'
-import Pc from '../../pages/Pc'
-import Console from '../../pages/Console'
-import Mobile from '../../pages/Mobile'
+import Home from '../../pages/home/Home'
+import Pc from '../../pages/pc/Pc'
+import Console from '../../pages/console/Console'
+import Mobile from '../../pages/mobile/Mobile'
+import LifeStyle from '../../pages/lifeStyle/lifeStyle'
 
 const Content = () => {
     return (
@@ -24,6 +25,10 @@ const Content = () => {
 
                 <Route path="/mobile">
                     <Mobile />
+                </Route>
+
+                <Route path="/lifestyle">
+                    <LifeStyle />
                 </Route>
             </Switch>
         </main>

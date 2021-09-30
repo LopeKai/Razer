@@ -1,24 +1,22 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { Link } from 'react-router-dom'
 
-import '../style/console.scss'
-import '../style/gridProducts/grid.scss'
+import './style/console.scss'
+import '../../style/gridProducts/grid.scss'
 
-import play from '../image/console/newConsole/play.svg'
-import xbox from '../image/console/newConsole/xbox.svg'
-import nintendo from '../image/console/newConsole/nintendo.svg'
+import play from '../../image/console/newConsole/play.svg'
+import xbox from '../../image/console/newConsole/xbox.svg'
+import nintendo from '../../image/console/newConsole/nintendo.svg'
 
-import imgRazerWolverine from '../image/console/products/razerWolverine.png'
-import imgRazerKaira from '../image/console/products/razerKaira.png'
-import imgRazerKairaPro from '../image/console/products/razerKairaPro.png'
-
+import imgRazerWolverine from '../../image/console/products/razerWolverine.png'
+import imgRazerKaira from '../../image/console/products/razerKaira.png'
+import imgRazerKairaPro from '../../image/console/products/razerKairaPro.png'
 
 const Console = () => {
     return (
         <div className="console">
-
-            <div className="console__new">
-                <div className="console__new-container">
+            <div className="newIcon">
+                <div className="newIcon-container">
                     <div>
                         <img src={xbox} alt="Xbox" />
                         <Link>
@@ -200,7 +198,7 @@ const Console = () => {
                     <div className="container">
                         <h1 className="colorWhite">GAMEPADS ENGINEERED FOR TOTAL CONTROL</h1>
                         <p>
-                            See how the Razer Raiju goes from the drawing board and into your hands, 
+                            See how the Razer Raiju goes from the drawing board and into your hands,
                             thanks to a combination of science, design and engineering.
                         </p>
                         <button href="#">Learn More &gt;</button>
