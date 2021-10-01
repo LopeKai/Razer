@@ -1,0 +1,16 @@
+.community {
+  padding-top: 50px;
+}
+
+.community .newIcon {
+  padding-bottom: 0;
+}
+
+.community .newIcon .newIcon-container {
+  -ms-grid-columns: (60px)[8];
+      grid-template-columns: repeat(8, 60px);
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  padding: 0;
+}
+/*# sourceMappingURL=community.css.map */

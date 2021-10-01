@@ -1,0 +1,54 @@
+.description {
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  padding: 35px 0;
+}
+
+.description .title {
+  font-size: 27px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 200;
+}
+
+.description .titleGreen {
+  font-size: 34px;
+  color: var(--color-primary);
+}
+
+.description .titleWhite { 
+  font-size: 27px;
+  color: #fff;
+}
+
+.description h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffff;
+}
+
+.colorWhite {
+  color: #ffff;
+}
+
+.description p {
+  width: 800px;
+  margin: 10px auto;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.description .button {
+  color: var(--color-primary);
+}
+
+.description .buttonNone {
+  display: none;
+}
+
+.description .buttonBlock {
+  display: block;
+  margin: 0 auto;
+}
+

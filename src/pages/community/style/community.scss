@@ -1,0 +1,12 @@
+.community {
+    padding-top: 50px;
+    
+    .newIcon {
+        padding-bottom: 0;
+        .newIcon-container {
+            grid-template-columns: repeat(8,60px);
+            column-gap: 10px;
+            padding: 0;
+        }
+    }
+}

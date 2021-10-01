@@ -1,0 +1,53 @@
+.lifestyle {
+  padding-top: 50px;
+}
+
+.lifestyle .newIcon-container {
+  -ms-grid-columns: (60px)[10];
+      grid-template-columns: repeat(10, 60px);
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.lifestyle .product {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.lifestyle__chairs {
+  background-image: url("../../../image/lifestyle/image1.jpg");
+}
+
+.lifestyle__snekiSnek {
+  background-image: url("../../../image/lifestyle/image2.jpg");
+}
+
+.lifestyle__collabs {
+  background-image: url("../../../image/lifestyle/image3.jpg");
+}
+
+.lifestyle__apprel {
+  background-image: url("../../../image/lifestyle/image4.jpg");
+}
+
+.lifestyle__bags {
+  background-image: url("../../../image/lifestyle/image5.jpg");
+}
+
+.lifestyle__gear {
+  background-image: url("../../../image/lifestyle/image6.jpg");
+}
+
+.lifestyle__masks {
+  background-image: url("../../../image/lifestyle/image7.jpg");
+}
+
+.lifestyle__sneki {
+  background-image: url("../../../image/lifestyle/image8.jpg");
+}
+
+.lifestyle__respawm {
+  background-image: url("../../../image/lifestyle/image9.jpg");
+}
+/*# sourceMappingURL=lifeStyle.css.map */

@@ -1,5 +1,12 @@
 .mobile {
   padding-top: 50px;
+  margin: 0 auto;
+  /*---------- Bring ----------*/
+  /*---------- consoleProducts ----------*/
+  /*---------- sync ----------*/
+  /*---------- peripherals----------*/
+  /*---------- peripherals----------*/
+  /*---------- mobile__accessories ----------*/
 }
 
 .mobile .newIcon-container {
@@ -13,5 +20,102 @@
 
 .mobile .newIcon-container div button {
   width: 100px;
+}
+
+.mobile__consoleBring {
+  height: 100vh;
+  background-image: url(../../../image/mobile/image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.mobile__consoleBring .description {
+  background-color: transparent;
+}
+
+.mobile__consoleBring .description h1 {
+  font-size: 26px;
+  color: #ffff;
+}
+
+.mobile__consoleBring .description button {
+  margin-top: 20px;
+}
+
+.mobile__consoleProducts {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--color-light);
+}
+
+.mobile__sync {
+  height: 100vh;
+  background-image: url(../../../image/mobile/image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.mobile__sync .description {
+  background-color: transparent;
+}
+
+.mobile__sync .description h1 {
+  font-size: 26px;
+  color: #ffff;
+}
+
+.mobile__sync .description button {
+  margin-top: 20px;
+}
+
+.mobile__peripherals {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--color-light);
+}
+
+.mobile__peripherals .razer-products .container-description h2 {
+  font-size: 16px;
+}
+
+.mobile__extra {
+  height: 100vh;
+  background-image: url(../../../image/mobile/image3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.mobile__extra .description {
+  background-color: transparent;
+}
+
+.mobile__extra .description h1 {
+  font-size: 26px;
+  color: #ffff;
+}
+
+.mobile__extra .description button {
+  margin-top: 20px;
+}
+
+.mobile__accessories {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--color-light);
 }
 /*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,IAAI;CAUpB;;AAXD,AAGI,UAHM,CAGN,QAAQ,CAAC;EACL,cAAc,EAAE,CAAC;CAMpB;;AAVL,AAKQ,UALE,CAGN,QAAQ,CAEJ,kBAAkB,CAAC;EACf,qBAAqB,EAAE,eAAc;EACrC,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "community.scss"
+    ],
+    "names": [],
+    "file": "community.css"
+}

@@ -75,18 +75,18 @@
 }
 
 .pc .peripherals .productOne {
-  background-image: url(../image/pc/perifericos/mouse.jpg);
+  background-image: url(../../../image/pc/perifericos/mouse.jpg);
 }
 
 .pc .peripherals .productTwo {
-  background-image: url(../image/pc/perifericos/mousePad.jpg);
+  background-image: url(../../../image/pc/perifericos/mousePad.jpg);
 }
 
 .pc .peripherals .productThree {
-  background-image: url(../image/pc/perifericos/teclado.jpg);
+  background-image: url(../../../image/pc/perifericos/teclado.jpg);
 }
 
 .pc .peripherals .productFour {
-  background-image: url(../image/pc/perifericos/headset.jpg);
+  background-image: url(../../../image/pc/perifericos/headset.jpg);
 }
 /*# sourceMappingURL=pc.css.map */

@@ -6,6 +6,8 @@ import Pc from '../../pages/pc/Pc'
 import Console from '../../pages/console/Console'
 import Mobile from '../../pages/mobile/Mobile'
 import LifeStyle from '../../pages/lifeStyle/lifeStyle'
+import Services from '../../pages/services/Services'
+import Community from '../../pages/community/Community'
 
 const Content = () => {
     return (
@@ -29,6 +31,14 @@ const Content = () => {
 
                 <Route path="/lifestyle">
                     <LifeStyle />
+                </Route>
+
+                <Route path="/services">
+                    <Services />
+                </Route>
+
+                <Route path="/community">
+                    <Community />
                 </Route>
             </Switch>
         </main>

@@ -52,7 +52,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../image/razerBlade.jpg");
+  background-image: url("../../../image/razerBlade.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -72,7 +72,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../image/razerSchool.jpg);
+  background-image: url(../../../image/razerSchool.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,7 +92,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../image/razerBarracuda.jpg");
+  background-image: url("../../../image/razerBarracuda.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -112,42 +112,42 @@
 }
 
 .Home .products .gaming {
-  background-image: url("../image/products/image1.jpg");
+  background-image: url("../../../image/products/image1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .newRazerBlade {
-  background-image: url("../image/products/image2.jpg");
+  background-image: url("../../../image/products/image2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .razerBlade14 {
-  background-image: url("../image/products/image3.jpg");
+  background-image: url("../../../image/products/image3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .razerOrochi {
-  background-image: url("../image/products/image4.jpg");
+  background-image: url("../../../image/products/image4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .razerBlackshark {
-  background-image: url("../image/products/image5.jpg");
+  background-image: url("../../../image/products/image5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .theBest {
-  background-image: url("../image/products/image6.jpg");
+  background-image: url("../../../image/products/image6.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

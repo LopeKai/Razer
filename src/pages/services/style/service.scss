@@ -1,0 +1,43 @@
+.services {
+    padding-top: 50px;
+
+    .newIcon-container {
+        column-gap: 5px;
+        grid-template-columns: repeat(7,75px);
+    }
+
+    .product {
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__razerGold {
+        background-image: url('../../../image/services/image1.jpg');
+    }
+
+    &__razerSilver {
+        background-image: url('../../../image/services/image2.jpg');
+    }
+
+    &__goldPins {
+        background-image: url('../../../image/services/image3.jpg');
+    }
+
+    &__goldWeb {
+        background-image: url('../../../image/services/image4.jpg')
+    }
+
+    &__razerGift {
+        background-image: url('../../../image/services/image5.jpg');
+    }
+
+    &__razerCare {
+        background-image: url('../../../image/services/image6.jpg');
+    }
+
+    &__razerId {
+        background-image: url('../../../image/services/image7.jpg');
+    }
+}

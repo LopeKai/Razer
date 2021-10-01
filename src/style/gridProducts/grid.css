@@ -8,11 +8,20 @@
       grid-template-columns: repeat(3, 350px);
   -webkit-column-gap: 15px;
           column-gap: 15px;
+  row-gap: 15px;
 }
 
 .razer-grid .razer-products {
+  position: relative;
   background-color: #000;
   border-bottom: 1px solid var(--color-primary);
+}
+
+.razer-grid .razer-products .btn-learnMore {
+  position: absolute;
+  left: 10px;
+  bottom: 13px;
+  color: var(--color-primary);
 }
 
 .razer-grid .razer-products .container-img {
@@ -34,6 +43,7 @@
 }
 
 .razer-grid .razer-products .container-description {
+  position: relative;
   padding: 0 10px 20px;
 }
 
@@ -48,10 +58,6 @@
   font-size: 13px;
   color: #888888;
   padding-top: 10px;
-}
-
-.razer-grid .razer-products .container-description .btn-learnMore {
-  color: var(--color-primary);
-  margin-top: 18px;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=grid.css.map */
