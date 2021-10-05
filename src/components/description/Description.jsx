@@ -24,8 +24,9 @@ const Description = (props) => {
             <p>
                 {props.textSub}
             </p>
-            <button className={classesButton}>Learn More &gt;</button>
+            <button className={classesButton}>{props.buttonDescription}</button>
         </div>
+        // Learn More &gt;
     )
 }
 

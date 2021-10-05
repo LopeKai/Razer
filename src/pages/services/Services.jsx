@@ -85,6 +85,7 @@ const Services = () => {
                     text='Razer Gold is the unified virtual credits for gamers worldwide, available in over 42,000 games and entertainment titles. Use Razer Gold to buy games and in-game content to get more bang for your buck—including getting rewarded with Razer Silver and exclusive game deals.'
                     textSub='Get started by reloading your Razer Gold account online, or at any of our 5.6 million touchpoints around the world.'
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
             </div>
 
@@ -93,8 +94,8 @@ const Services = () => {
                     titleWhite="RAZER SILVER"
                     textTitle='Razer Silver is the only loyalty rewards program for gamers.'
                     text='Earn Razer Silver simply by using Razer Gold to make your game purchases or participating in our software and services. Utilize your Razer Silver in exclusive events or use them to redeem exciting rewards—from Razer hardware to digital rewards and discounts.'
-
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
             </div>
 
@@ -103,8 +104,8 @@ const Services = () => {
                     titleWhite="GOLD PINS"
                     textTitle='Gold PINs are a digital code used to reload Razer Gold wallets or top up participating game credits.'
                     text='Gold PINs can be purchased at over 5.6 million touchpoints globally, including convenience stores, consumer electronics chains, and department stores.'
-
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
             </div>
 
@@ -113,8 +114,8 @@ const Services = () => {
                     titleWhite="GOLD WEBSHOP"
                     textTitle='Browse over 42,000 games and entertainment titles in the Gold Webshop.'
                     text='Recharge on the hottest titles such as PUBG Mobile, Mobile Legends: Bang Bang, Genshin Impact, and many more! Check out our Gold Webshop for the full list of titles.'
-
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
             </div>
 
@@ -123,6 +124,7 @@ const Services = () => {
                     titleWhite="RAZER GIFT CARD - GIVE THE GIFT OF GAMING"
                     text='The Razer Gift Card unlocks the ultimate gifts for any gamer. From gaming peripherals to laptops to apparel, redeem from the largest catalog of Razer gear in the world, including rare and exclusive products only found on Razer.com. Recipients also enjoy 14-day risk free returns, and comprehensive customer support.'
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
             </div>
 
@@ -131,6 +133,7 @@ const Services = () => {
                     titleWhite="RAZERCARE"
                     text='Protect your Razer gear with RazerCare—includes extended warranty that covers both mechanical and electrical issues due to normal product usage.'
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
             </div>
 
@@ -139,8 +142,8 @@ const Services = () => {
                     titleWhite={"RAZER ID"}
                     text='Gain a competitive advantage and leverage on our support, expertise and community with your Razer ID. Integrated with Razer s services and software, you can gain access to tons of tools with your Razer ID—including buying the best gamer gear on our site, redeeming Razer Silver, saving your personalized configs in Synapse, and more.'
                     buttonBlock={''}
+                    buttonDescription={'Learn More >'}
                 />
-
             </div>
 
         </div>
