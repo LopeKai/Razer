@@ -8,6 +8,7 @@ import Mobile from '../../pages/mobile/Mobile'
 import LifeStyle from '../../pages/lifeStyle/lifeStyle'
 import Services from '../../pages/services/Services'
 import Community from '../../pages/community/Community'
+import Support from '../../pages/support/Support'
 
 const Content = () => {
     return (
@@ -39,6 +40,10 @@ const Content = () => {
 
                 <Route path="/community">
                     <Community />
+                </Route>
+
+                <Route path="/support">
+                    <Support />
                 </Route>
             </Switch>
         </main>
