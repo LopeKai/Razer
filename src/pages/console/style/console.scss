@@ -4,11 +4,30 @@
     margin: 0 auto;
     padding-top: 50px;
 
+    .description {
+        .titlePrimary {
+            color: var(--color-primary);
+            font-size: 36px;
+            font-weight: 200;
+        }
+
+        .colorWhite {
+            font-size: 28px;
+            font-weight: 200;
+        }
+
+        .btn-learnMore { 
+            color: var(--color-primary);
+            font-size: 17px;
+            font-weight: 300;
+        }
+    }
+
     .description__product {
         position: absolute;
-        right: 5%;
+        right: 15%;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translate(0%, -50%);
 
         background-color: transparent;
 
@@ -34,6 +53,7 @@
             }
 
             button {
+                font-size: 16px;
                 text-align: initial;
                 color: var(--color-primary);
             }
@@ -41,7 +61,8 @@
     }
 
     .products {
-        height: 100vh;
+        min-height: 690px;
+        max-height: 100vh ;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

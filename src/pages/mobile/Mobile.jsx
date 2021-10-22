@@ -108,7 +108,7 @@ const Mobile = () => {
             </div>
 
             <div className="description">
-                <h1> ENGINEERED FOR THE GAME, DESIGNED FOR LIFE </h1>
+                <h1 className="titlePrimary"> ENGINEERED FOR THE GAME, DESIGNED FOR LIFE </h1>
                 <p>
                     This is freedom of play, redefined. Our mobile gaming and lifestyle audio products are
                     crafted to seamlessly integrate gaming into every aspect of your life.

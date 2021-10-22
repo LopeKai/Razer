@@ -13,7 +13,7 @@ const Description = (props) => {
 
     return (
         <div className="description">
-            <h1 className={classesTitle}> {props.titleWhite} </h1>
+            <h1 className={classesTitle}> {props.titleWhite} {props.titleGreen} </h1>
             <h3>{props.subTitle}</h3>
             <p>
                 {props.textTitle}

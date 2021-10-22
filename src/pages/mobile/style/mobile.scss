@@ -19,9 +19,29 @@
         }
     }
 
+    .description {
+        .titlePrimary {
+            color: var(--color-primary);
+            font-size: 36px;
+            font-weight: 200;
+        }
+
+        .colorWhite {
+            font-size: 28px;
+            font-weight: 300;
+        }
+
+        button {
+            color: var(--color-primary);
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+
     /*---------- Bring ----------*/
     &__consoleBring {
-        height: 100vh;
+        min-height: 690px;
+        max-height: 100vh;
         background-image: url(../../../image/mobile/image1.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -33,7 +53,7 @@
 
             h1 {
                 font-size: 26px;
-                color: #ffff;
+                color: #fff;
             }
 
             button {
@@ -51,7 +71,8 @@
 
     /*---------- sync ----------*/
     &__sync {
-        height: 100vh;
+        min-height: 690px;
+        max-height: 100vh;
         background-image: url(../../../image/mobile/image2.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -89,7 +110,8 @@
 
     /*---------- peripherals----------*/
     &__extra {
-        height: 100vh;
+        min-height: 690px;
+        max-height: 100vh;
         background-image: url(../../../image/mobile/image3.jpg);
         background-repeat: no-repeat;
         background-position: center;

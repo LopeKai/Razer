@@ -97,67 +97,76 @@ const LifeStyle = (props) => {
 
       <div className="lifestyle__chairs product">
         <Description
-          title={'CHAIRS'}
+          titleWhite={'CHAIRS'}
           text={`Achieve perfect gaming form for your marathon gaming sessions with the Razer Iskur—a gaming chair with a built
             -in ergonomic lumbar support system`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 
       <div className="lifestyle__snekiSnek product">
         <Description
-          title={`SNEKI SNEK CARTOON SERIES`}
+          titleWhite={`SNEKI SNEK CARTOON SERIES`}
           subTitle={'Sponsored by Franklin Templeton '}
           text={`Can’t get enough of our adorable cutie? Catch Sneki Snek and friends as they work together and show why all of us should support sustainability! `}
+          buttonDescription={'Watch Now >'}
         />
       </div>
 
       <div className="lifestyle__collabs product">
         <Description
-          title={`COLLABS`}
+          titleWhite={`COLLABS`}
           text={`We’re always looking to keep our gear fresh, and it doesn’t get any better than 
                 working with other brands that we as gamers love and get hype for.`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 
       <div className="lifestyle__apprel product">
         <Description
-          title={`APPAREL`}
+          titleWhite={`APPAREL`}
           text={`Made for the mavericks, rebels, and iconoclasts. When no-nonsense functionality meets design that speaks for itself, you’ll have no trouble making a statement.`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 
       <div className="lifestyle__bags product">
         <Description
-          title={`BAGS`}
+          titleWhite={`BAGS`}
           text={`Built for those who carry hard at work and play. Keep your gear secure and protected, and always be ready to perform at your best no matter where you’re headed.`}
+          buttonDescription={'View All >'}
         />
       </div>
 
       <div className="lifestyle__gear product">
         <Description
-          title={`GEAR`}
+          titleWhite={`GEAR`}
           text={`While others see gaming as a hobby, for us, it's an entire way of life. If you share the same sentiments, then our assortment of add-ons will help you express that in every facet of your everyday routine.`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 
       <div className="lifestyle__masks product">
         <Description
-          title={`MASKS`}
+          titleWhite={`MASKS`}
           text={`Safety, style, comfort—our range of Razer face masks are designed to be an important yet seamless part of your life, offering everyday protection that looks and feels gre`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 
       <div className="lifestyle__sneki product">
         <Description
-          title={`SNEKI SNEK`}
+          titleWhite={`SNEKI SNEK`}
           text={`Chief gaming mascot. Full-time conservationist. Our resident cutie may wear many hats, but will happily be yours to hold and snuggle.`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 
       <div className="lifestyle__respawm product">
         <Description
-          title={`RESPAWN`}
+          titleWhite={`RESPAWN`}
           text={`A gamer’s mind is the most important tool on the virtual battlefield. Help tap into your full potential with our mental performance drink mix or gum to take on the competition.`}
+          buttonDescription={'Learn More >'}
         />
       </div>
 

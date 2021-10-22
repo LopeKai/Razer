@@ -41,6 +41,7 @@
 
 .description .button {
   color: var(--color-primary);
+  font-size: 16px;
 }
 
 .description .buttonNone {

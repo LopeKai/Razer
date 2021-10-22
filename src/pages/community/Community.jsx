@@ -127,7 +127,7 @@ const Community = (props) => {
             <div className="community__products">
                 <div className="community__products-container">
                     <div>
-                        <Description
+                        <Description className="description"
                             titleWhite="CHAT ON RAZER INSIDER"
                             buttonDescription="Learn More >"
                         />

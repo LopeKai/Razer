@@ -24,6 +24,10 @@ p {
   color: #999999;
 }
 
+ul {
+  list-style: none;
+}
+
 /*------------ Container Buttons -----------*/
 
 button {
