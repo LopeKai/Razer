@@ -63,15 +63,24 @@
     }
 }
 
+.header__mobile {
+    display: none;
+}
+
 @media (max-width: 766px) {
     .header {
         display: none;
     }
 
     .header__mobile {
+        position: relative;
         display: block;
-        border: 1px solid red;
-        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--color-primary);
+        height: 100%;
+        padding: 0 15px;
 
         .hamburguer {
             position: relative;
@@ -87,6 +96,7 @@
                 height: 1px;
                 background-color: #fff;
                 opacity: 0.5;
+                transition: 300ms;
             }
 
             &::before {
@@ -98,6 +108,92 @@
                 height: 1px;
                 background-color: #fff;
                 opacity: 0.5;
+                transition: 300ms;
+            }
+        }
+
+        .hambuguer-active {
+            &::after {
+                top: 4px;
+                transform: rotate(40deg);
+            }
+
+            &::before {
+                top: 4px;
+                transform: rotate(-40deg);
+            }
+        }
+
+        .containerLogo {
+            width: 38px;
+            height: 38px;
+        }
+
+        .containerIcon {
+            font-size: 25px;
+            color: #ffff;
+            opacity: 0.7;
+            display: flex;
+            align-self: center;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        &-containerMenu {
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            bottom: -600px;
+            left: 0;
+            background-color: #040404;
+            z-index: 1;
+
+            .input {
+                display: block;
+                width: 96%;
+                height: 40px;
+                margin: 0 auto;
+                background-color: #222;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                padding: 0 33px;
+                font-size: 17px;
+                color: #fff;
+            }
+
+            nav {
+                border-top: 1px solid #555;
+                margin-top: 15px;
+
+                ul {
+                    padding: 10px 40px;
+
+                    li {
+                        margin-bottom: 15px;
+                        border-bottom: 1px solid #555;
+                        padding-bottom: 5px;
+
+                        &:nth-child(7) {
+                            border: none;
+                        }
+
+                        a {
+                            font-size: 17px;
+                            text-decoration: none;
+                            color: #fff;
+                            opacity: 0.6;
+                            font-weight: 300;
+
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                }
             }
         }
     }
