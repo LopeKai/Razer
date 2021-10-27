@@ -2,7 +2,7 @@ import './style/home.scss'
 
 export default function Home() {
     return (
-        <section className="Home">
+        <section className="Home"> 
             <div className="limitedTime">
                 <p>For a limited time, all orders over US$49 will enjoy free shipping to the
                     United States.

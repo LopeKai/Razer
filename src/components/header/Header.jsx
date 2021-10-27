@@ -6,7 +6,10 @@ import './style/header.scss'
 export default function Header() {
     function buttonHambuguer() {
         let button = document.getElementById('hamburguer')
+        let menu = document.getElementById('containerMenu')
+
         button.classList.toggle('hambuguer-active')
+        menu.classList.toggle('menu-active')
     }
     return (
         <>
@@ -64,7 +67,7 @@ export default function Header() {
                     <ion-icon className="icon" name="cart-outline"></ion-icon>
                 </Link>
 
-                <div className="header__mobile-containerMenu">
+                <div className="header__mobile-containerMenu" id="containerMenu">
                     <input className="input" type="text" placeholder="Search Razer.com" />
                     <nav>
                         <ul>
@@ -94,7 +97,6 @@ export default function Header() {
                 </div>
 
             </header>
-
         </>
     )
 }

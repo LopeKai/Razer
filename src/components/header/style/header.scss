@@ -144,11 +144,14 @@
         &-containerMenu {
             position: absolute;
             width: 100%;
-            height: 100vh;
-            bottom: -600px;
+            height: 0vh;
+            bottom: 0vh;
             left: 0;
+            opacity: 0;
             background-color: #040404;
             z-index: 1;
+            padding-top: 5px;
+            transition: 600ms;
 
             .input {
                 display: block;
@@ -195,6 +198,14 @@
 
                 }
             }
+        }
+
+        .menu-active {
+            height: 100vh;
+            bottom: -100vh;
+            left: 0;
+            opacity: 1;
+            transition: 600ms;
         }
     }
 }
