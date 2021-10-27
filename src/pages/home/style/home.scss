@@ -16,10 +16,11 @@
             letter-spacing: -.01px;
         }
 
-        button {
+        a {
             display: inline-block;
             margin-left: 5px;
             text-decoration: none;
+            color: blue;
 
             &:hover {
                 color: #eee;
@@ -40,13 +41,6 @@
         background-position: center;
         background-size: cover;
         border-bottom: 8px solid #222;
-
-        // @media(max-height: 500px) {
-        //     & {
-        //         height: 100vh;
-        //         border: 2px solid red;
-        //     }
-        // }
     }
 
     /*-------- RAZER SCHOOL ----------*/
@@ -66,7 +60,7 @@
     /*---------- RAZER BARRACUDA X -----------*/
     .razerBarracudaX {
         width: 100%;
-        min-height: 700px;
+        height: 700px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -127,5 +121,27 @@
             background-position: center;
             background-size: cover;
         }
+    }
+}
+
+@media (max-width: 766px) {
+    .Home {
+        padding-top:0px;
+    }
+    /*----------- LIMITED TIME -----------*/
+    .limitedTime {
+        text-align: center;
+        min-height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 50px;
+    }
+
+    .razerBlade {
+        max-height: 100px;
+        width: 50px;
+        border: 1px solid blue;
     }
 }

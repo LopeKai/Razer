@@ -7,7 +7,7 @@ export default function Home() {
                 <p>For a limited time, all orders over US$49 will enjoy free shipping to the
                     United States.
                 </p>
-                <button><p>Learn More {'>'}</p></button>
+                <a href="https://www.razer.com/campaigns/halloween" target="_blank"><p>Learn More {'>'}</p></a>
             </div>
 
             {/*---------- RAZER BLADE -----------*/}

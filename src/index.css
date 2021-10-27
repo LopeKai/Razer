@@ -114,6 +114,17 @@ button {
   font-size: 1.1rem;
 }
 
+@media(max-width: 766px) {
+  .razer-containerTitle h1 {
+    font-size: 2rem;
+  }
+
+  .razer-containerTitle h2 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
 /*------------ Icon new -----------*/
 .newIcon {
   display: flex;
