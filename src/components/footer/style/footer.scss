@@ -7,7 +7,7 @@
 
     .footer-container {
         margin: 0 auto;
-        max-width: 1300px;
+        max-width: 1170px;
     }
 
     .footer-containerNav {
@@ -162,6 +162,29 @@
                 &:hover {
                     text-decoration: underline;
                     opacity: 1;
+                }
+            }
+        }
+    }
+
+    &__mobile {
+        display: none;
+    }
+
+    @media(max-width: 766px) {
+        & {
+            display: none;
+        }
+
+        &__mobile {
+            height: 100%;
+            padding: 25px;
+
+            &-container {
+                border: 1px solid blue;
+
+                > div {
+                    border: 1px solid white;
                 }
             }
         }
