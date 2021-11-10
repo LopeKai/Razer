@@ -267,8 +267,6 @@ const Community = (props) => {
 
         </div>
 
-
-
     )
 }
 

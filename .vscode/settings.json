@@ -10,8 +10,7 @@
         "editorGroup.border": "#1a1a1a",
         "panel.border": "#1a1a1a",
         "sash.hoverBorder": "#1a1a1a",
-        "sideBar.border": "#1a1a1a",
-        "tab.activeBorder": "#1a1a1a"
+        "sideBar.border": "#1a1a1a"
     },
     "peacock.color": "#000"
 }

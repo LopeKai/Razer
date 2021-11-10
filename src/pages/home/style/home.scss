@@ -32,7 +32,7 @@
     /*-------- RAZER BLADE ----------*/ 
     .razerBlade {
         width: 100%;
-        min-height: 700px;
+        max-height: 700px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -122,26 +122,29 @@
             background-size: cover;
         }
     }
-}
 
-@media (max-width: 766px) {
-    .Home {
-        padding-top:0px;
-    }
-    /*----------- LIMITED TIME -----------*/
-    .limitedTime {
-        text-align: center;
-        min-height: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 40px 50px;
-    }
-
-    .razerBlade {
-        max-height: 100px;
-        width: 50px;
-        border: 1px solid blue;
+    @media (max-width: 766px) {
+        & {
+            padding-top: 0px;
+        }
+        /*----------- LIMITED TIME -----------*/
+        .limitedTime {
+            text-align: center;
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 50px;
+        }
+    
+        .razerBlade {
+            min-height: 580px;
+        }
+    
+        .products {
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(6,580px);
+        }
     }
 }
