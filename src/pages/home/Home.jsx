@@ -49,8 +49,8 @@ export default function Home() {
             <div className="products">
                 <div className="gaming">
                     <div className="razer-containerTitle-products">
-                        <h1>Razer Basilisk V3</h1>
-                        <h2>Full Spectrum Customizability</h2>
+                        <h1>The Razer Kraken V3 Range</h1>
+                        <h2>The deepest immersion. Unleashed.</h2>
                     </div>
                     <div className="containerButtons-products">
                         <button href="#">Learn More <span>{'>'}</span></button>
@@ -60,8 +60,8 @@ export default function Home() {
 
                 <div className="newRazerBlade">
                     <div className="razer-containerTitle-products">
-                        <h1>POWER UP YOUR PRODUCTIVITY</h1> 
-                        <h2>RAZER BOOK STARTING AT $999.99</h2>
+                        <h1>Razer Zephyr</h1> 
+                        <h2>Stay safe, social and sustainable</h2>
                     </div>
                     <div className="containerButtons-products">
                         <button href="#">Learn More <span>{'>'}</span></button>
@@ -82,8 +82,8 @@ export default function Home() {
 
                 <div className="razerOrochi">
                     <div className="razer-containerTitle-products">
-                        <h1>RAZER SNEKI SNEK GIANT CUSHION</h1>
-                        <h2>GO BIG ON SUSTAINABILITY</h2>
+                        <h1>all new razer gaming components</h1>
+                        <h2>Powerful meets colorful</h2>
                     </div>
                     <div className="containerButtons-products">
                         <button href="#">Learn More <span>{'>'}</span></button>
@@ -93,8 +93,8 @@ export default function Home() {
 
                 <div className="razerBlackshark">
                     <div className="razer-containerTitle-products">
-                        <h1>RAZER ISKUR GAMING CHAIR</h1>
-                        <h2>AVAILABLE IN FABRIC XL</h2>
+                        <h1>Razer Deathadder v2 X hyperspeed</h1>
+                        <h2>ergonomics without limits</h2>
                     </div>
                     <div className="containerButtons-products">
                         <button href="#">Learn More <span>{'>'}</span></button>
@@ -104,11 +104,11 @@ export default function Home() {
 
                 <div className="theBest">
                     <div className="razer-containerTitle-products">
-                        <h1>RAZER BLACKWIDOW V3 MINI HYPERSPEED - PHANTOM EDITION</h1>
-                        <h2>FREEDOM THROUGH FORM</h2>
+                        <h1>Razercon 2021</h1>
+                        <h2>a digital celebration for gamers. By gamers.</h2>
                     </div>
                     <div className="containerButtons-products">
-                        <button href="#">Enjoy Special Privileges <span>{'>'}</span></button>
+                        <button href="#">learn More <span>{'>'}</span></button>
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@
     /*-------- RAZER BLADE ----------*/ 
     .razerBlade {
         width: 100%;
-        max-height: 700px;
+        height: 700px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -81,14 +81,14 @@
         background-color: #222;
 
         .gaming {
-            background-image: url('../../../image/products/image1.jpg');
+            background-image: url('../../../image/products/image1.jfif');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
         }
 
         .newRazerBlade {
-            background-image: url('../../../image/products/image2.jpg');
+            background-image: url('../../../image/products/image2.jfif');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -102,30 +102,29 @@
         }
 
         .razerOrochi {
-            background-image: url('../../../image/products/image4.jpg');
+            background-image: url('../../../image/products/image4.jfif');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
         }
 
         .razerBlackshark {
-            background-image: url('../../../image/products/image5.jpg');
+            background-image: url('../../../image/products/image5.jfif');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
         }
 
         .theBest {
-            background-image: url('../../../image/products/image6.jpg');
+            background-image: url('../../../image/products/image6.jfif');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
         }
     }
-
     @media (max-width: 766px) {
         & {
-            padding-top: 0px;
+           padding-top: 0px;
         }
         /*----------- LIMITED TIME -----------*/
         .limitedTime {
@@ -139,12 +138,22 @@
         }
     
         .razerBlade {
-            min-height: 580px;
+            max-height: 590px;
+            background-size: 200%;
         }
     
+        /*----------- PRODUCTS -----------*/
         .products {
+            display: grid;
             grid-template-columns: repeat(1,1fr);
             grid-template-rows: repeat(6,580px);
+            border-bottom: 8px solid #555;
+            gap: 8px;
+            background-color: #222;
+
+            > div {
+                padding: 0 10px;
+            }
         }
     }
 }
