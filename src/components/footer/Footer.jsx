@@ -1,10 +1,17 @@
+import { useState } from 'react'
 import './style/footer.scss'
 
 export default function Footer() {
-    function buttonActive() {
+
+    function buttonToggle() {
         let button = document.getElementsByClassName('buttonHamburguer')
-        button.classList.toggle('buttonHamburguer-active')
+        for (let i = 0; i < button.length; i++) {
+            button[i].addEventListener('click', function () {
+                this.classList.toggle('active')
+            })
+        }
     }
+
     return (
         <>
             <footer className="footer">
@@ -98,11 +105,8 @@ export default function Footer() {
             <footer className="footer__mobile">
                 <div className="footer__mobile-container">
                     <div>
-                        <div>
-                            <p> shop </p>
-                            <div id="buttonHamburguer" className="buttonHamburguer" onClick={buttonActive}></div>
-                        </div>
-                        <ul>
+                        <p className="buttonHamburguer" onClick={buttonToggle}> Shop </p>
+                        <ul className="ul">
                             <li>
                                 <a href="https://www.razer.com/razerstores">RazerStrores</a>
                             </li>
@@ -131,15 +135,11 @@ export default function Footer() {
                                 <a href="https://www.razer.com/newsletter">Newsletter</a>
                             </li>
                         </ul>
-
                     </div>
 
                     <div>
-                        <div>
-                            <p> Explore </p>
-                            <div id="buttonHamburguer" className="buttonHamburguer" onClick={buttonActive}></div>
-                        </div>
-                        <ul>
+                        <p className="buttonHamburguer" onClick={buttonToggle}> Explore </p>
+                        <ul className="ul">
                             <li>
                                 <a href="https://www.razer.com/technology">Technology</a>
                             </li>
@@ -163,11 +163,8 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <div>
-                            <p> Support </p>
-                            <div id="buttonHamburguer" className="buttonHamburguer" onClick={buttonActive}></div>
-                        </div>
-                        <ul>
+                        <p className="buttonHamburguer" onClick={buttonToggle}> Support </p>
+                        <ul className="ul">
                             <li>
                                 <a href="https://support.razer.com/?_gl=1*1c3384a*_ga*ODgzNjQ3MTE4LjE2MTg4NTMwMDY.*_ga_3TRK53PM75*MTYzNTQzNzI3OC4xMy4xLjE2MzU0Mzk1MjAuNjA.&_ga=2.186964968.1370106488.1635294226-883647118.1618853006">Get Help</a>
                             </li>
@@ -188,15 +185,11 @@ export default function Footer() {
                                 <a href="https://razerid.razer.com/?_gl=1*137t1t9*_ga*ODgzNjQ3MTE4LjE2MTg4NTMwMDY.*_ga_3TRK53PM75*MTYzNTQzNzI3OC4xMy4xLjE2MzU0Mzk4NzIuMzY.&_ga=2.217043158.1370106488.1635294226-883647118.1618853006">Menage Razer ID</a>
                             </li>
                         </ul>
-
                     </div>
 
                     <div>
-                        <div>
-                            <p> Company </p>
-                            <div id="buttonHamburguer" className="buttonHamburguer" onClick={buttonActive}></div>
-                        </div>
-                        <ul>
+                        <p className="buttonHamburguer" onClick={buttonToggle}> Company </p>
+                        <ul className="ul">
                             <li>
                                 <a href="https://www.razer.com/about-razer">About Us</a>
                             </li>

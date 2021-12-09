@@ -139,7 +139,7 @@
                 margin-right: 20px;
 
                 &::after {
-                    content: '';
+                    content: "";
                     position: absolute;
                     top: 55%;
                     right: -10px;
@@ -171,7 +171,7 @@
         display: none;
     }
 
-    @media(max-width: 766px) {
+    @media (max-width: 766px) {
         & {
             display: none;
         }
@@ -185,74 +185,81 @@
                 border: 1px solid blue;
 
                 > div {
-                    // border: 1px solid white;
+                    margin-bottom: 10px;
 
-                    > div {
-                        height: 40px;
-                        border-bottom: 1px solid #3b3b3b;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        margin-bottom: 10px;
+                    .buttonHamburguer {
+                        position: relative;
+                        font-size: 14px;
+                        color: #fff;
+                        border-bottom: 1px solid #333; ;
+                        cursor: pointer;
+                        padding: 10px 0 10px;
 
-                        p {
-                            font-size: 13px;
-                            color: #ffff;
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            right: 7px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            width: 2px;
+                            height: 16px;
+                            background-color: #fff;
+                            opacity: 0.5;
+                            transition: 400ms;
                         }
 
-                        .buttonHamburguer {
-                            position: relative;
-                            width: 20px;
-                            height: 20px;
-                            cursor: pointer;
-
-                            &::after {
-                                content: '';
-                                position: absolute;
-                                left: 0;
-                                top: 0;
-                                width: 1.5px;
-                                height: 16px;
-                                background-color: #fff;
-                                opacity: 0.5;
-                                transition: 400ms;
-                            }
-
-                            &:hover::after {
-                                opacity: 1;
-                            }
-
-                            &::before {
-                                content: '';
-                                position: absolute;
-                                left: -7px;
-                                top: 7px;
-                                width: 15px;
-                                height: 1.5px;
-                                background-color: #fff;
-                                opacity: 0.5;
-                                transition: 400ms;
-                            }
-
-                            &:hover::before {
-                                opacity: 1;
-                            }
-
+                        &:hover::after {
+                            opacity: 1;
                         }
 
-                        .buttonHamburguer-active {
-                            &::after {
-                                content: '';
-                                background-color: #fff;
-                                transform: rotate(-45deg);
-                                transition: 400ms;
-                            }
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            right: 1px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            width: 15px;
+                            height: 2px;
+                            background-color: #fff;
+                            opacity: 0.5;
+                            transition: 400ms;
+                        }
 
-                            &::before {
-                                content: '';
-                                background-color: #fff;
-                                transform: rotate(-45deg);
-                                transition: 400ms;
+                        &:hover::before {
+                            opacity: 1;
+                        }
+                    }
+
+                    .buttonHamburguer.active {
+                        &::after {
+                            top: 35%;
+                            transform: rotate(-45deg);
+                        }
+
+                        &::before {
+
+                            transform: rotate(-45deg);
+                        }
+                    }
+
+
+
+                    ul {
+                        // border: 1px solid blue;
+                        margin-top: 10px;
+                        li {
+                            margin-bottom: 10px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                opacity: 0.5;
+                                font-size: 13px;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    opacity: 1;
+                                }
                             }
                         }
                     }
