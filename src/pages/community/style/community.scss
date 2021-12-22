@@ -84,7 +84,7 @@
             justify-content: center;
             padding: 55px;
 
-           > div {
+            > div {
                 width: 100%;
                 height: 570px;
                 background-repeat: no-repeat;
@@ -146,7 +146,6 @@
                     margin-top: 30px;
 
                     li {
-
                         a {
                             display: inline-block;
                             img {
@@ -172,16 +171,15 @@
 
             > div:nth-child(3) {
                 background-color: #0f0f0f;
-                
+
                 .containerProducts {
                     padding: 0 50px;
                     width: 100%;
                     display: grid;
-                    grid-template-columns: repeat(2,1fr);
+                    grid-template-columns: repeat(2, 1fr);
                     align-items: center;
 
-                    div{
-
+                    div {
                         ul {
                             margin-top: 0px;
                             column-gap: 20px;
@@ -189,7 +187,7 @@
 
                             li {
                                 position: relative;
-                                
+
                                 a {
                                     font-size: 15px;
                                     font-weight: 300;
@@ -199,7 +197,7 @@
                             }
 
                             li:nth-child(-n + 2)::after {
-                                content: '';
+                                content: "";
                                 position: absolute;
                                 right: -10px;
                                 bottom: 5px;
@@ -209,6 +207,106 @@
                                 opacity: 0.6;
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 766px) {
+        & {
+            padding-top: 0;
+        }
+
+        .community {
+            min-height: 500px;
+        }
+
+        &__razer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url("../../../image/community/image1.jpg");
+    
+            h2 {
+                font-size: 25px;
+    
+                strong {
+                    font-size: 49px;
+                }
+            }
+        }
+
+        &__products {
+            background-color: var(--color-light);
+    
+            &-container {
+                grid-template-columns: repeat(1, 100%);
+    
+                > div {
+                    width: 100%;
+                    height: 500px;
+    
+                    .description {
+                        width: 95%;
+                        height: 100%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        &__socialNetworks {
+            width: 100%;
+
+            h1 {
+                width: 100%;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 300;
+                color: #fff;
+
+            }
+    
+            &-container {
+                grid-template-rows: repeat(3, 500px);
+                grid-template-columns: repeat(1, 100%); ;
+    
+              >  div {
+                    padding: 0 20px;
+
+                    h1 {
+                        text-align: center;
+                        font-size: 24px;
+                    }
+    
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        column-gap: 40px;
+                        margin-top: 30px;
+    
+                        li {
+                            a {
+                                display: inline-block;
+                                img {
+                                    display: block;
+                                    width: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                > div:nth-child(3) {
+                    background-color: #0f0f0f;
+    
+                    .containerProducts {
+                        grid-template-columns: repeat(1, 1fr);
+                        row-gap: 20px;
                     }
                 }
             }

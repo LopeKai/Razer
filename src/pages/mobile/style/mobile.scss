@@ -102,7 +102,7 @@
         .razer-products {
             .container-description {
                 h2 {
-                    font-size: 16px
+                    font-size: 16px;
                 }
             }
         }
@@ -137,5 +137,55 @@
         display: grid;
         justify-content: center;
         background-color: var(--color-light);
+     }
+
+     @media (max-width: 766px) {
+         & {
+             margin-top: 0;
+             padding-top: 0;
+         }
+
+        .description {
+            padding-left: 10px;
+            padding-right: 10px;
+
+            .titlePrimary {
+                color: var(--color-primary);
+                font-size: 30px;
+                font-weight: 200;
+            }
+
+            p {
+                width: 100%;
+            }
+    
+            .colorWhite {
+                font-size: 28px;
+                font-weight: 300;
+            }
+    
+            button {
+                color: var(--color-primary);
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+
+        &__consoleProducts {
+            display: grid;
+            justify-content: center;
+            background-color: var(--color-light);
+        }
+
+        .razer-products {
+            margin-top: 0px;
+            margin-bottom: -20px;
+            .container-description {
+                background-color: #000;
+                h2 {
+                    font-size: 16px;
+                }
+            }
+        }
      }
 }

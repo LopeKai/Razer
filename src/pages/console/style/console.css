@@ -5,12 +5,29 @@
   padding-top: 50px;
 }
 
+.console .description .titlePrimary {
+  color: var(--color-primary);
+  font-size: 36px;
+  font-weight: 200;
+}
+
+.console .description .colorWhite {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.console .description .btn-learnMore {
+  color: var(--color-primary);
+  font-size: 17px;
+  font-weight: 300;
+}
+
 .console .description__product {
   position: absolute;
-  right: 5%;
+  right: 15%;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
   background-color: transparent;
 }
 
@@ -44,12 +61,14 @@
 }
 
 .console .description__product .container button {
+  font-size: 16px;
   text-align: initial;
   color: var(--color-primary);
 }
 
 .console .products {
-  height: 100vh;
+  min-height: 690px;
+  max-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

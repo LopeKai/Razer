@@ -28,20 +28,21 @@
   letter-spacing: -.01px;
 }
 
-.Home .limitedTime button {
+.Home .limitedTime a {
   display: inline-block;
   margin-left: 5px;
   text-decoration: none;
+  color: blue;
 }
 
-.Home .limitedTime button:hover {
+.Home .limitedTime a:hover {
   color: #eee;
   text-decoration: underline;
 }
 
 .Home .razerBlade {
   width: 100%;
-  min-height: 700px;
+  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +82,7 @@
 
 .Home .razerBarracudaX {
   width: 100%;
-  min-height: 700px;
+  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,14 +113,14 @@
 }
 
 .Home .products .gaming {
-  background-image: url("../../../image/products/image1.jpg");
+  background-image: url("../../../image/products/image1.jfif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .newRazerBlade {
-  background-image: url("../../../image/products/image2.jpg");
+  background-image: url("../../../image/products/image2.jfif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,23 +134,69 @@
 }
 
 .Home .products .razerOrochi {
-  background-image: url("../../../image/products/image4.jpg");
+  background-image: url("../../../image/products/image4.jfif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .razerBlackshark {
-  background-image: url("../../../image/products/image5.jpg");
+  background-image: url("../../../image/products/image5.jfif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Home .products .theBest {
-  background-image: url("../../../image/products/image6.jpg");
+  background-image: url("../../../image/products/image6.jfif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 766px) {
+  .Home {
+    /*----------- LIMITED TIME -----------*/
+    /*----------- PRODUCTS -----------*/
+  }
+  .Home {
+    padding-top: 0px;
+  }
+  .Home .limitedTime {
+    text-align: center;
+    min-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px 50px;
+  }
+  .Home .razerBlade {
+    max-height: 590px;
+    background-size: 200%;
+  }
+  .Home .products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (580px)[6];
+        grid-template-rows: repeat(6, 580px);
+    border-bottom: 8px solid #555;
+    gap: 8px;
+    background-color: #222;
+  }
+  .Home .products > div {
+    padding: 0 10px;
+  }
 }
 /*# sourceMappingURL=home.css.map */

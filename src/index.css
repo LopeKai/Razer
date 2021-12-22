@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --color-primary: #44d62c; 
+  --color-primary: #44d62c;
   --color-dark: #222;
   --color-light: #252525;
   font-size: 100%;
@@ -115,7 +115,7 @@ button {
   font-size: 1.1rem;
 }
 
-@media(max-width: 766px) {
+@media (max-width: 766px) {
   .razer-containerTitle h1 {
     font-size: 2rem;
   }
@@ -171,3 +171,25 @@ button {
   font-size: 11px;
 }
 
+@media (max-width: 766px) {
+  .newIcon-container {
+    overflow: scroll;
+    margin-top: 0;
+  }
+
+  .newIcon-container::-webkit-scrollbar {
+    background-color: #fff;
+    width: 0;
+    height: 8px;
+  }
+
+  .newIcon-container::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+
+  .newIcon-container::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+    height: 10px;
+  }
+}

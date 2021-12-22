@@ -53,3 +53,13 @@
   margin: 0 auto;
 }
 
+@media (max-width: 766px) {
+  .description {
+    padding: 35px 10px;
+  }
+
+  .description p {
+    width: 100%;
+  }
+}
+

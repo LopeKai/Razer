@@ -182,7 +182,6 @@
             padding: 25px;
 
             &-container {
-                border: 1px solid blue;
 
                 > div {
                     margin-bottom: 10px;
@@ -191,7 +190,7 @@
                         position: relative;
                         font-size: 14px;
                         color: #fff;
-                        border-bottom: 1px solid #333; ;
+                        border-bottom: 1px solid #333; 
                         cursor: pointer;
                         padding: 10px 0 10px;
 
@@ -231,6 +230,8 @@
                     }
 
                     .buttonHamburguer.active {
+                        border: none;
+
                         &::after {
                             top: 35%;
                             transform: rotate(-45deg);
@@ -240,13 +241,23 @@
 
                             transform: rotate(-45deg);
                         }
+
+                    }
+
+                    .buttonHamburguer.active ~ ul {
+                        height: 100%;
+                        display: block;
+                        overflow: initial;
+                        border-bottom: 1px solid #333; 
                     }
 
 
-
                     ul {
-                        // border: 1px solid blue;
+                        height: 0;
+                        display: none;
+                        overflow: hidden;
                         margin-top: 10px;
+
                         li {
                             margin-bottom: 10px;
 

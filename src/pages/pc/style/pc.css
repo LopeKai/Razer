@@ -10,6 +10,7 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: var(--color-light);
+  padding-top: 50px;
 }
 
 .pc .btn-learnMore {
@@ -23,7 +24,7 @@
   width: 100%;
   text-align: center;
   background: #000;
-  padding: 50px 0;
+  padding: 50px 0 50px;
 }
 
 .pc_description h1 {

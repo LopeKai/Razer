@@ -8,7 +8,7 @@ import iconConsole from '../../image/support/icon/icon2.svg'
 import iconMobile from '../../image/support/icon/icon3.svg'
 import iconLifestyle from '../../image/support/icon/icon4.svg'
 import iconServices from '../../image/support/icon/icon5.svg'
-import iconReplacement from '../../image/support/icon/icon6.svg'
+// import iconReplacement from '../../image/support/icon/icon.svg'
 import iconInsider from '../../image/support/icon/icon7.svg'
 import iconHelpe from '../../image/support/icon/icon8.svg'
 
@@ -67,9 +67,9 @@ const Support = () => {
                     </div>
 
                     <div>
-                        <img src={iconReplacement} alt="Replacement " />
+                        <img src={iconLifestyle} alt="Replacement " />
                         <Link>
-                            <button className="button-newConsole">Replacement Parts</button>
+                            <button className="button-newConsole">Parts</button>
                         </Link>
                     </div>
                 </div>
@@ -224,7 +224,7 @@ const Support = () => {
                 </div>
             </div>
 
-            {/*--------- Razer care---------- */}
+            {/*--------- Razer razerProgram---------- */}
             <div className="support__razerProgram">
                 <div className="support__razerProgram-container">
                     <div>

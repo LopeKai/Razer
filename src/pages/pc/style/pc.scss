@@ -73,4 +73,50 @@
             background-image: url(../../../image/pc/perifericos/headset.jpg);
         }
     }
+
+    @media (max-width: 766px) {
+        & {
+            padding: 0;
+        }
+
+        &_description {
+            width: 100%;
+    
+            p {
+                font-size: 18px;
+                width: 440px;
+            }
+        }
+
+        .peripherals {
+            grid-template-columns: repeat(1,550px);
+           
+            &__products {
+    
+                h2 {
+                    font-size: 27px;
+                    color: #fff;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    margin-top: 50px;
+                }
+            }
+    
+            .productOne {
+                background-image: url(../../../image/pc/perifericos/mouse.jpg);
+            }
+    
+            .productTwo {
+                background-image: url(../../../image/pc/perifericos/mousePad.jpg);
+            }
+    
+            .productThree {
+                background-image: url(../../../image/pc/perifericos/teclado.jpg);
+            }
+    
+            .productFour {
+                background-image: url(../../../image/pc/perifericos/headset.jpg);
+            }
+        }
+    }
 }

@@ -7,7 +7,7 @@
     }
 
     .product {
-        min-height: 690px;
+        min-height: 490px;
         max-height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
@@ -41,4 +41,17 @@
     &__razerId {
         background-image: url('../../../image/services/image7.jpg');
     }
+
+    @media (max-width: 766px) {
+        & {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .newIcon-container {
+            column-gap: 0px;
+            grid-template-columns: repeat(7,70px);
+        }
+    }
+
 }

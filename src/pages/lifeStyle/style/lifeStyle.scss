@@ -14,39 +14,52 @@
     }
 
     &__chairs {
-        background-image: url('../../../image/lifestyle/image1.jpg');
+        background-image: url("../../../image/lifestyle/image1.jpg");
     }
 
     &__snekiSnek {
-        background-image: url('../../../image/lifestyle/image2.jpg');
+        background-image: url("../../../image/lifestyle/image2.jpg");
     }
 
     &__collabs {
-        background-image: url('../../../image/lifestyle/image3.jpg');
+        background-image: url("../../../image/lifestyle/image3.jpg");
     }
 
     &__apprel {
-        background-image: url('../../../image/lifestyle/image4.jpg');
+        background-image: url("../../../image/lifestyle/image4.jpg");
     }
 
     &__bags {
-        background-image: url('../../../image/lifestyle/image5.jpg');
+        background-image: url("../../../image/lifestyle/image5.jpg");
     }
 
     &__gear {
-        background-image: url('../../../image/lifestyle/image6.jpg');
+        background-image: url("../../../image/lifestyle/image6.jpg");
     }
 
     &__masks {
-        background-image: url('../../../image/lifestyle/image7.jpg');
+        background-image: url("../../../image/lifestyle/image7.jpg");
     }
 
     &__sneki {
-        background-image: url('../../../image/lifestyle/image8.jpg');
+        background-image: url("../../../image/lifestyle/image8.jpg");
     }
 
     &__respawm {
-        background-image: url('../../../image/lifestyle/image9.jpg');
+        background-image: url("../../../image/lifestyle/image9.jpg");
     }
-    
+
+    @media (max-width: 766px) {
+        & {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .product {
+            min-height: 490px;
+            max-height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
+    }
 }

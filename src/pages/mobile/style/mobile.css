@@ -22,8 +22,26 @@
   width: 100px;
 }
 
+.mobile .description .titlePrimary {
+  color: var(--color-primary);
+  font-size: 36px;
+  font-weight: 200;
+}
+
+.mobile .description .colorWhite {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.mobile .description button {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .mobile__consoleBring {
-  height: 100vh;
+  min-height: 690px;
+  max-height: 100vh;
   background-image: url(../../../image/mobile/image1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -37,7 +55,7 @@
 
 .mobile__consoleBring .description h1 {
   font-size: 26px;
-  color: #ffff;
+  color: #fff;
 }
 
 .mobile__consoleBring .description button {
@@ -54,7 +72,8 @@
 }
 
 .mobile__sync {
-  height: 100vh;
+  min-height: 690px;
+  max-height: 100vh;
   background-image: url(../../../image/mobile/image2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -89,7 +108,8 @@
 }
 
 .mobile__extra {
-  height: 100vh;
+  min-height: 690px;
+  max-height: 100vh;
   background-image: url(../../../image/mobile/image3.jpg);
   background-repeat: no-repeat;
   background-position: center;

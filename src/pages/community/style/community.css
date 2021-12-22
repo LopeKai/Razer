@@ -2,6 +2,14 @@
   padding-top: 50px;
 }
 
+.community .community {
+  min-height: 700px;
+  max-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .community .newIcon {
   padding-bottom: 0;
 }
@@ -9,8 +17,235 @@
 .community .newIcon .newIcon-container {
   -ms-grid-columns: (60px)[8];
       grid-template-columns: repeat(8, 60px);
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
   padding: 0;
+}
+
+.community__razer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../../image/community/image1.jpg");
+}
+
+.community__razer h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffff;
+  line-height: 60px;
+}
+
+.community__razer h2 strong {
+  font-size: 92px;
+  color: var(--color-primary);
+}
+
+.community__welcome {
+  background-color: var(--color-primary);
+  padding: 6rem 1rem;
+}
+
+.community__welcome p {
+  margin: 0 auto;
+  text-align: center;
+  color: #000000;
+  font-weight: 300;
+}
+
+.community__welcome p:nth-child(1) {
+  max-width: 810px;
+  margin-bottom: 30px;
+}
+
+.community__welcome p:nth-child(2) {
+  max-width: 840px;
+}
+
+.community__startYour {
+  background-image: url("../../../image/community/image2.jpg");
+}
+
+.community__liveOnStream {
+  background-image: url("../../../image/community/image3.jpg");
+}
+
+.community__timeRazer {
+  background-image: url("../../../image/community/image4.jpg");
+}
+
+.community__products {
+  background-color: var(--color-light);
+}
+
+.community__products-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (570px)[2];
+      grid-template-columns: repeat(2, 570px);
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 55px;
+}
+
+.community__products-container > div {
+  width: 100%;
+  height: 570px;
+  background-repeat: no-repeat;
+  padding: 25px 0px 0;
+  text-align: center;
+  border-bottom: 1px solid var(--color-primary);
+  background-size: cover;
+}
+
+.community__products-container > div .description {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.community__products-container > div:nth-child(1) {
+  background-image: url("../../../image/community/products/product1.jpg");
+}
+
+.community__products-container > div:nth-child(2) {
+  background-image: url("../../../image/community/products/product2.jpg");
+}
+
+.community__products-container > div:nth-child(3) {
+  background-image: url("../../../image/community/products/product3.jpg");
+}
+
+.community__products-container > div:nth-child(4) {
+  background-image: url("../../../image/community/products/product4.jpg");
+}
+
+.community__socialNetworks h1 {
+  font-size: 26px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.community__socialNetworks-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (390px)[3];
+      grid-template-rows: repeat(3, 390px);
+}
+
+.community__socialNetworks-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.community__socialNetworks-container div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  margin-top: 30px;
+}
+
+.community__socialNetworks-container div ul li a {
+  display: inline-block;
+}
+
+.community__socialNetworks-container div ul li a img {
+  display: block;
+  width: 60px;
+}
+
+.community__socialNetworks-container > div:nth-child(1) {
+  background-image: url("../../../image/community/social/image1.jpg");
+}
+
+.community__socialNetworks-container > div:nth-child(2) {
+  background-image: url("../../../image/community/social/image2.jpg");
+}
+
+.community__socialNetworks-container > div:nth-child(2) p {
+  opacity: 0.7;
+}
+
+.community__socialNetworks-container > div:nth-child(3) {
+  background-color: #0f0f0f;
+}
+
+.community__socialNetworks-container > div:nth-child(3) .containerProducts {
+  padding: 0 50px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.community__socialNetworks-container > div:nth-child(3) .containerProducts div ul {
+  margin-top: 0px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.community__socialNetworks-container > div:nth-child(3) .containerProducts div ul li {
+  position: relative;
+}
+
+.community__socialNetworks-container > div:nth-child(3) .containerProducts div ul li a {
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.community__socialNetworks-container > div:nth-child(3) .containerProducts div ul li:nth-child(-n + 2)::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  bottom: 5px;
+  width: 1px;
+  height: 13px;
+  background-color: #fff;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=community.css.map */

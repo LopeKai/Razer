@@ -10,7 +10,8 @@
 }
 
 .lifestyle .product {
-  height: 100vh;
+  min-height: 690px;
+  max-height: 100vh;
   background-position: center;
   background-size: cover;
 }

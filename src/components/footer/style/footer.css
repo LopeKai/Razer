@@ -8,7 +8,7 @@
 
 .footer .footer-container {
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1170px;
 }
 
 .footer .footer-containerNav {
@@ -161,7 +161,7 @@
 }
 
 .footer .footer-containerCopyright .unitedStates span::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 55%;
   right: -10px;
@@ -186,5 +186,93 @@
 .footer .footer-containerCopyright .unitedStates a:hover {
   text-decoration: underline;
   opacity: 1;
+}
+
+.footer__mobile {
+  display: none;
+}
+
+@media (max-width: 766px) {
+  .footer {
+    display: none;
+  }
+  .footer__mobile {
+    display: block;
+    height: 100%;
+    padding: 25px;
+  }
+  .footer__mobile-container {
+    border: 1px solid blue;
+  }
+  .footer__mobile-container > div {
+    margin-bottom: 10px;
+  }
+  .footer__mobile-container > div .buttonHamburguer {
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    padding: 10px 0 10px;
+  }
+  .footer__mobile-container > div .buttonHamburguer::after {
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 2px;
+    height: 16px;
+    background-color: #fff;
+    opacity: 0.5;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+  }
+  .footer__mobile-container > div .buttonHamburguer:hover::after {
+    opacity: 1;
+  }
+  .footer__mobile-container > div .buttonHamburguer::before {
+    content: "";
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0.5;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+  }
+  .footer__mobile-container > div .buttonHamburguer:hover::before {
+    opacity: 1;
+  }
+  .footer__mobile-container > div .buttonHamburguer.active::after {
+    top: 35%;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .footer__mobile-container > div .buttonHamburguer.active::before {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .footer__mobile-container > div ul {
+    margin-top: 10px;
+  }
+  .footer__mobile-container > div ul li {
+    margin-bottom: 10px;
+  }
+  .footer__mobile-container > div ul li a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 13px;
+  }
+  .footer__mobile-container > div ul li a:hover {
+    text-decoration: underline;
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
