@@ -1,0 +1,420 @@
+.store {
+    padding-top: 50px;
+
+    /*----------- LIMITED TIME -----------*/
+    .limitedTime {
+        background-color: #555;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: #eee;
+            font-size: 14px;
+            letter-spacing: -0.01px;
+        }
+
+        a {
+            display: inline-block;
+            margin-left: 5px;
+            text-decoration: none;
+            color: blue;
+
+            &:hover {
+                color: #eee;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    /*----------- STORE GAMING ----------*/
+    &__gaming {
+        max-width: 1150px;
+        margin: 0 auto;
+        margin-top: 85px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            max-width: 750px;
+            font-size: 35px;
+            font-weight: 700;
+            color: var(--color-primary);
+
+            span {
+                color: #fff;
+            }
+        }
+
+        &_containerButton {
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+
+            button {
+                font-size: 14px;
+                color: #fff;
+                text-align: left;
+
+                span {
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+
+    /*----------- newIcon -----------*/
+    .newIcon-container {
+        grid-template-columns: repeat(10, 50px);
+        column-gap: 70px;
+
+        & div {
+            height: 100px;
+            justify-content: center;
+
+            img {
+                width: 70px;
+                height: 70px;
+            }
+
+            button {
+                font-size: 15px;
+            }
+        }
+    }
+
+    /*---------- slider ----------*/
+    &__slider {
+        width: 100%;
+        max-height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .slides {
+            width: 500%;
+            height: 600px;
+            display: flex;
+
+            input {
+                display: none;
+            }
+
+            .slide {
+                position: relative;
+                width: 20%;
+                transition: 2s;
+
+                .title {
+                    width: 100%;
+                    position: absolute;
+                    left: 50%;
+                    top: 70px;
+                    transform: translateX(-50%);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h2 {
+                        font-size: 50px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 300;
+                        color: #fff;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .navigation-auto {
+                position: absolute;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                margin-top: 549px;
+
+                div {
+                    border: 1px solid var(--color-primary);
+                    padding: 5px;
+                    border-radius: 10px;
+                    transition: 1s;
+
+                    &:not(:last-child) {
+                        margin-right: 40px;
+                    }
+                }
+            }
+
+            #radio1:checked ~ .first {
+                margin-left: 0;
+            }
+
+            #radio2:checked ~ .first {
+                margin-left: -20%;
+            }
+
+            #radio3:checked ~ .first {
+                margin-left: -40%;
+            }
+
+            #radio1:checked ~ .navigation-auto .auto-btn1 {
+                background-color: var(--color-primary);
+            }
+
+            #radio2:checked ~ .navigation-auto .auto-btn2 {
+                background-color: var(--color-primary);
+            }
+
+            #radio3:checked ~ .navigation-auto .auto-btn3 {
+                background-color: var(--color-primary);
+            }
+        }
+
+        .navigation-manual {
+            position: absolute;
+            width: 100%;
+            margin-top: -50px;
+            display: flex;
+            justify-content: center;
+
+            .manual-btn {
+                border: 1px solid var(--color-primary);
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+
+                &:not(:last-child) {
+                    margin-right: 40px;
+                }
+
+                &:hover {
+                    background-color: var(--color-primary);
+                }
+            }
+        }
+    }
+
+    /*---------- buy ----------*/
+    &__buy {
+        padding-top: 50px;
+
+        &-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+                color: var(--color-primary);
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+
+            > div {
+                display: grid;
+                grid-template-columns: repeat(4, 270px);
+                justify-content: center;
+                column-gap: 30px;
+
+                > div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #eeeeee;
+                        margin: 10px 0;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    /*---------- EXCLUSIVES ----------*/
+    &__exclusives {
+        padding-top: 100px;
+        padding-bottom: 50px;
+
+        &-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+            row-gap: 10px;
+
+            > div {
+                display: flex;
+                flex-direction: column;
+
+                h3 {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #fff;
+                    text-align: center;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 766px) {
+        & {
+            padding-top: 0;
+
+            .limitedTime {
+                height: 60px;
+                text-align: center;
+                padding: 0 5px;
+
+                a {
+                    display: none;
+                    overflow: hidden;
+                }
+            }
+
+            &__gaming {
+                margin-top: 50px;
+                flex-direction: column;
+                align-items: initial;
+                justify-content: initial;
+                padding: 0 10px;
+
+                h1 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    margin-bottom: 15px;
+                }
+            }
+
+            .newIcon-container {
+                & div {
+                    img {
+                        width: 55px;
+                        height: 55px;
+                    }
+                }
+            }
+
+            &__slider {
+                .slides {
+                    .slide {
+                        .title {
+                            h2 {
+                                font-size: 28px;
+                            }
+
+                            h3 {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__buy {
+                &-container {
+                    h2 {
+                        text-align: center;
+                        line-height: 40px;
+                        font-size: 38px;
+                    }
+
+                    > div {
+                        grid-template-columns: repeat(1, 300px);
+                        row-gap: 60px;
+                    }
+                }
+            }
+
+            &__exclusives {
+                padding-top: 100px;
+                padding-bottom: 50px;
+
+                &-container {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    column-gap: 20px;
+                    row-gap: 40px;
+
+                    > div {
+                        display: flex;
+                        flex-direction: column;
+
+                        h3 {
+                            font-size: 28px;
+                            font-weight: 700;
+                            color: #fff;
+                            text-align: center;
+                        }
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199.98px) {
+        & {
+            .limitedTime {
+                height: 40px;
+                text-align: center;
+                padding: 0 5px;
+
+                a {
+                    display: none;
+                    overflow: hidden;
+                }
+            }
+
+            &__buy {
+                &-container {
+                    > div {
+                        grid-template-columns: repeat(2, 300px);
+                        column-gap: 50px;
+                    }
+                }
+            }
+
+            &__exclusives {
+                &-container {
+                    > div {
+                        h3 {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

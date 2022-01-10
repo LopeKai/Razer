@@ -171,10 +171,11 @@ button {
   font-size: 11px;
 }
 
-@media (max-width: 766px) {
+@media (min-width: 500px) and (max-width: 1199.98px) {
   .newIcon-container {
     overflow: scroll;
     margin-top: 0;
+    padding: 0 0px;
   }
 
   .newIcon-container::-webkit-scrollbar {
@@ -193,3 +194,4 @@ button {
     height: 10px;
   }
 }
+

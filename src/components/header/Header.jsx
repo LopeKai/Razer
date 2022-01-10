@@ -43,6 +43,9 @@ export default function Header() {
                             <Link to="/support"> Support </Link>
                         </li>
                         <li>
+                            <Link to="/store">Store</Link>
+                        </li>
+                        <li>
                             <Link to="" className="containerIcon">
                                 <ion-icon className="icon" name="search-outline"></ion-icon>
                             </Link>

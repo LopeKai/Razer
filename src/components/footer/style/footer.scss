@@ -13,6 +13,7 @@
     .footer-containerNav {
         display: flex;
         justify-content: space-between;
+        column-gap: 50px;
 
         div {
             p {
@@ -129,6 +130,7 @@
         .unitedStates {
             position: absolute;
             right: 0;
+            bottom: 0;
 
             span {
                 position: relative;

@@ -94,11 +94,11 @@ const Support = () => {
                             </li>
 
                             <li>
-                                <a target="_blank" href="https://www.youtube.com/watch?v=2WcHNJwW0Wk">Troubleshoot and resolve headset mic issues</a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=sBs_Q-kNaOk">Troubleshoot and resolve headset mic issues</a>
                             </li>
 
                             <li>
-                                <a target="_blank" href="https://www.youtube.com/watch?v=kEaIDhqHLIA">Detect Razer devices in Synapse 3</a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=sBs_Q-kNaOk">Detect Razer devices in Synapse 3</a>
                             </li>
                         </ul>
                     </div>

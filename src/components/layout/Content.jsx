@@ -9,6 +9,8 @@ import LifeStyle from '../../pages/lifeStyle/lifeStyle'
 import Services from '../../pages/services/Services'
 import Community from '../../pages/community/Community'
 import Support from '../../pages/support/Support'
+import Store from '../../pages/store/Store'
+
 
 const Content = () => {
     return (
@@ -19,10 +21,10 @@ const Content = () => {
                 </Route>
 
                 <Route path="/pc">
-                    <Pc/>
+                    <Pc />
                 </Route>
 
-                <Route path="/console"> 
+                <Route path="/console">
                     <Console />
                 </Route>
 
@@ -44,6 +46,10 @@ const Content = () => {
 
                 <Route path="/support">
                     <Support />
+                </Route>
+
+                <Route path="/store">
+                    <Store />
                 </Route>
             </Switch>
         </main>

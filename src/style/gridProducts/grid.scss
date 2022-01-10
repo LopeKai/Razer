@@ -80,4 +80,26 @@
             }
         }
     }
+
+    @media (min-width: 768px) and (max-width: 1199.98px) {
+        & {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+
+        .razer-products {
+            height: 580px;
+            position: relative;
+
+            .container-description {
+                position: absolute;
+                bottom: 0;
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
